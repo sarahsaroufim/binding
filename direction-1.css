@@ -9,6 +9,48 @@
 
 
 :root{
-    --font-display: 'inter';
+    --font-display: 'kulturista';
     --font-size: 15px;
+}
+
+.black-circle{
+    width: 251px;
+    height: 251px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -80px;
+    margin-top: -56px;
+    position: absolute;
+    z-index: -1;
+}
+
+.latin-emblem{
+    font-size: 42px;
+    font-weight: 700;
+    background-color: white;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#logotype{
+    font-family: 'kulturista';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+blockquote{
+    font-family: 'inter';
+    width: 260px;
+    background-color: white;
+    padding: 25px;
+    margin-top: 16px;
+    margin-left: 61px;
+
 }
