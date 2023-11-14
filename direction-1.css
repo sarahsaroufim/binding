@@ -21,7 +21,7 @@
     display: inline-block;
     margin-left: -80px;
     margin-top: -56px;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
@@ -29,14 +29,22 @@
     font-size: 42px;
     font-weight: 700;
     background-color: white;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: -161px;
+    margin-top: 35px;
+    position: absolute;
 }
 
 h1{
     color: white;
     font-size: 20px;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: -105px;
     margin-left: 10px;
+    position: absolute;
 }
 
 #logotype{
@@ -50,7 +58,49 @@ blockquote{
     width: 260px;
     background-color: white;
     padding: 25px;
-    margin-top: 16px;
+    margin-top: -70px;
     margin-left: 61px;
+    margin-bottom: 30px;
+}
 
+#slash-symbol{
+    font-family: 'kulturista';
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#hashtag-symbol{
+    font-family: 'kulturista';
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#question-symbol{
+    font-family: 'kulturista';
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.reading-title{
+    font-family: 'roc grotesk';
+    font-size: 40px;
+    line-height: 103%;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+    margin-top: 10px;
+}
+
+#reading-2{
+    text-align: right;
 }
