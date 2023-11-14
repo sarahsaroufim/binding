@@ -1,6 +1,28 @@
-:root{
-    --font-display: 'Times New Roman';
-    --spacing: 100px;
-    --font-size: 25px;
-    --scale: 3;
-}
+/* OCR B Std Regular */
+@import url("https://use.typekit.net/rwu5qlp.css");
+
+/* Lyon Arabic Text */
+@font-face {
+    font-family: 'Lyon Arabic Text Web';
+    src: url('LyonArabicText-Regular-Web.woff2') format('woff2'),
+         url('LyonArabicText-Regular-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    /* Lyon Arabic Slanted Text */
+@font-face {
+    font-family: 'Lyon Arabic Slanted Text Web';
+    src: url('LyonArabicSlantedText-Bold-Web.woff2') format('woff2'),
+         url('LyonArabicSlantedText-Bold-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+    :root{
+        --font-display: 'ocr-b-std';
+        --spacing: 10px;
+        --font-size: 15px;
+        --scale: 2;
+    }
+

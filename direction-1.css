@@ -1,5 +1,15 @@
+/* Kulturista */
+@import url("https://use.typekit.net/rwu5qlp.css");
+
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Roc Grotesk */
+@import url("https://use.typekit.net/rwu5qlp.css");
+
+
 :root{
-    --font-display: 'Helvetica';
+    --font-display: 'Kulturista';
     --spacing: 10px;
     --font-size: 15px;
     --scale: 2;
