@@ -81,6 +81,10 @@ blockquote{
     background-color: black;
     font-size: 40px;
     font-weight: 700;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 #question-symbol{
@@ -89,6 +93,10 @@ blockquote{
     background-color: black;
     font-size: 40px;
     font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .reading-title{
@@ -103,4 +111,34 @@ blockquote{
 
 #reading-2{
     text-align: right;
+    margin-top: 20px;
+}
+
+.author-name{
+    font-family: 'inter';
+    font-size: 15px;
+}
+
+.white-circle{
+    width: 251px;
+    height: 251px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-top: -109px;
+    margin-left: 200px;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.black-background{
+    background-color: black;
+    padding: 200px;
+    padding-bottom: 130px;
+    margin-top: -280px;
+    z-index: -2;
+    position: absolute;
+    overflow: hidden;
 }
