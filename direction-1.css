@@ -16,7 +16,7 @@
     --font-size: 15px;
 }
 
-.black-circle{
+#black-circle{
     width: 251px;
     height: 251px;
     background-color: black;
@@ -175,7 +175,7 @@
 }
 
 .reading-title-inside{
-    margin-top: 150px;
+    margin-top: 200px;
     font-family: 'roc grotesk';
     font-size: 30px;
     line-height: 103%;
@@ -188,4 +188,67 @@
     margin-left: 28px;
     font-style: italic;
     font-weight: 500;
+    margin-bottom: 150px;
 }
+
+
+#contents-title{
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    width: 160px;
+    padding: 20px;
+    margin-bottom: -25px;
+}
+
+#reading-3-chapters{
+    font-family: 'inter';
+    font-size: 17px;
+    line-height: 28px;
+    color: white;
+    background-color: black;
+    padding-left: 55px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-bottom: -2px;
+    list-style-type: decimal;
+}
+
+#appendix{
+    font-family: 'inter';
+    line-height: 25px;
+    color: white;
+    background-color: black;
+    padding-left: 25px;
+    padding-bottom: 55px;
+}
+
+.appendix-style{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.small-chapters{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+#black-circle-2{
+    width: 251px;
+    height: 251px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    z-index: -1;
+    margin-top: -140px;
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+/* please god... how do i make overflow hidden work */
+
