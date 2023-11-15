@@ -25,7 +25,7 @@
     z-index: -1;
 }
 
-.latin-emblem{
+#latin-emblem{
     font-size: 42px;
     font-weight: 700;
     background-color: white;
@@ -38,7 +38,7 @@
     position: absolute;
 }
 
-h1{
+#latin-logotype{
     color: white;
     font-size: 20px;
     font-weight: 600;
@@ -47,7 +47,7 @@ h1{
     position: absolute;
 }
 
-#logotype{
+#smaller-latin-logotype{
     font-family: 'kulturista';
     font-size: 16px;
     font-weight: 600;
@@ -126,7 +126,7 @@ blockquote{
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 100px;
-    margin-top: -109px;
+    margin-top: -137px;
     margin-left: 200px;
     position: relative;
     overflow: hidden;
@@ -136,9 +136,36 @@ blockquote{
 .black-background{
     background-color: black;
     padding: 200px;
-    padding-bottom: 130px;
+    padding-bottom: 115px;
     margin-top: -280px;
     z-index: -2;
     position: absolute;
     overflow: hidden;
+}
+
+#coming-soon{
+    color: white;
+    font-family: 'inter';
+    padding-left: 9px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+#arabic-emblem{
+    font-size: 42px;
+    font-weight: 700;
+    background-color: white;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 10px;
+}
+
+#arabic-logotype{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 5px;
 }
