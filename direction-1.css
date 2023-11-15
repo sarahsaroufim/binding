@@ -56,7 +56,7 @@
     font-weight: 600;
 }
 
-blockquote{
+#homepage-blockquote{
     font-family: 'inter';
     width: 260px;
     background-color: white;
@@ -107,7 +107,7 @@ blockquote{
     font-size: 40px;
     line-height: 103%;
     text-decoration: underline;
-    text-decoration-thickness: 1.5px;
+    text-decoration-thickness: 1.3px;
     text-underline-offset: 3px;
     margin-top: 10px;
 }
@@ -120,6 +120,7 @@ blockquote{
 .author-name{
     font-family: 'inter';
     font-size: 15px;
+    font-style: italic;
 }
 
 .white-circle{
@@ -129,7 +130,7 @@ blockquote{
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 100px;
-    margin-top: -140px;
+    margin-top: -145px;
     margin-left: 200px;
     position: relative;
     overflow: hidden;
@@ -152,6 +153,7 @@ blockquote{
     padding-left: 9px;
     position: absolute;
     margin-top: -80px;
+    font-style: italic;
 }
 
 #arabic-emblem{
@@ -170,4 +172,20 @@ blockquote{
     font-weight: 600;
     margin-left: 10px;
     margin-top: 7px;
+}
+
+.reading-title-inside{
+    margin-top: 150px;
+    font-family: 'roc grotesk';
+    font-size: 30px;
+    line-height: 103%;
+    margin-bottom: 5px;
+}
+
+#reading-3-blockquote{
+    margin-top: 69px;
+    width: 319px;
+    margin-left: 28px;
+    font-style: italic;
+    font-weight: 500;
 }
