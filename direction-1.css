@@ -16,6 +16,12 @@
     --font-size: 15px;
 }
 
+#letter-tile{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
 #black-circle{
     width: 251px;
     height: 251px;
@@ -356,3 +362,6 @@ h6{
     font-size: 14px;
     margin-bottom: 50px;
 }
+
+/* not sure how or when all my <p>s got stuck together...
+tried commenting out every piece of css but couldn't find the culprit */
