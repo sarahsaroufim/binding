@@ -22,6 +22,18 @@
     position: absolute;
 }
 
+.reading-title-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+.author-name-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
 #black-circle{
     width: 251px;
     height: 251px;

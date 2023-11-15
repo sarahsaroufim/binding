@@ -72,12 +72,6 @@
         position: absolute;
     }
 
-    .em-dash{
-        visibility: hidden;
-        font-size: 0.1px;
-        position: absolute;
-    }
-
     #letter-tile{
         margin-top: -20px;
     }
@@ -192,7 +186,56 @@
 
     #homepage-blockquote{
         float: left;
-        
+        font-size: 19px;
+        width: 375px;
+        color: white;
+        background-color: black;
+        padding-top: 55px;
+        padding-left: 31px;
+        padding-bottom: 55px;
+        margin-bottom: 700px;
+    }
+
+    #smaller-latin-logotype{
+        font-family: 'ocr-b-std';
+        font-size: 18px;
+        margin-right: 35px;
+    }
+
+    .reading-title{
+        visibility: hidden;
+        font-size: 0.1px;
+        position: absolute;
+    }
+
+    .author-name{
+        visibility: hidden;
+        font-size: 0.1px;
+        position: absolute;
+    }
+    
+    
+    .reading-title-capital{
+        font-family: 'ocr-b-std';
+        font-size: 30px;
+        margin-top: 80px;
+        color: white;
+    }
+
+    .author-name-capital{
+        font-family: 'ocr-b-std';
+        font-size: 15px;
+        margin-top: 5px;
+        color: white;
+    }
+
+    #readings{
+        background-color: black;
+        position: absolute;
+        margin-top: 530px;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        padding-left: 31px;
     }
 
 
