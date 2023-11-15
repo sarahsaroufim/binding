@@ -40,6 +40,20 @@
     position: absolute;
 }
 
+#reading-title-inside-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#author-name-inside-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+
+
 #black-circle{
     width: 251px;
     height: 251px;
