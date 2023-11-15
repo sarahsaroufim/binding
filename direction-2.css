@@ -48,6 +48,12 @@
         position: absolute;
     }
 
+    #latin-logotype-capital{
+        visibility: hidden;
+        font-size: 0.1px;
+        position: absolute;
+    }
+
     #latin-logotype{
         visibility: hidden;
         font-size: 0.1px;
@@ -227,6 +233,7 @@
         font-size: 15px;
         margin-top: 5px;
         color: white;
+        margin-left: 0;
     }
 
     #readings{
@@ -297,6 +304,7 @@
         color: white;
         background-color: black;
         padding: 24px;
+        margin-left: 0;
     }
 
     #reading-3-chapters{
@@ -345,11 +353,98 @@
         font-family: 'Lyon Arabic Slanted Text';
         font-weight: 900;
         font-size: 26px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         margin-top: -10px;
         text-align: center;
     }
 
+    p{
+        margin-left: 28px;
+        width: 319px;
+    }
+
+    #typography-quote{
+        font-family: 'Lyon Arabic Slanted Text';
+        width: 320px;
+        font-size: 18px;
+        line-height: 120%;
+        margin-left: 30px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        background-color: rgb(66, 255, 119);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #example-1{
+        font-family: 'Lyon Arabic Text';
+        font-size: 76px;
+        line-height: 87px;
+        margin-bottom: 30px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    #example-1-b{
+        font-family: 'Lyon Arabic Slanted Text';
+        font-size: 81px;
+    }
+    
+    .example-title{
+        margin-bottom: 20px;
+        font-family: 'ocr-b-std';
+    }
+    
+    .example-movement{
+        font-size: 16px;
+        font-weight: 900;
+    }
+    
+    .example-date{
+        font-family: 'Lyon Arabic Text';
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    #example-2{
+        font-family: 'helvetica';
+        font-size: 66.5px;
+        line-height: 78px;
+        margin-bottom: 30px;
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    #example-2-b{
+        font-style: italic;
+    }
+
+    .chapter-number-b{
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: -10px;
+        text-align: center;
+    }
+    
+    h5{
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+    }
+    
+    .chapter-number-c{
+        font-size: 14px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    
+    h6{
+        font-size: 14px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
 
 
 

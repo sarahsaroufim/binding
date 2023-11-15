@@ -14,7 +14,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
 
 
-:root{
-    --font-display: 'syncopate';
-    --font-size: 15px;
+#letter-tile{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#latin-emblem{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#slash-symbol{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#hashtag-symbol{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#question-symbol{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+.reading-title-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+.author-name-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+.em-dash{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#arabic-emblem{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#reading-title-inside-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#author-name-inside-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+#latin-logotype{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
+body{
+    background-color: rgb(251, 255, 47);
+}
+
+#latin-logotype-capital{
+    font-family: 'VT323';
+    font-size: 33px;
+    margin-top: 125px;
+    margin-left: 110px;
+}
+
+#smaller-latin-logotype{
+    font-family: 'VT323';
+    font-size: 19px;
+}
+
+#homepage-blockquote{
+    font-family: 'Courgette';
+    font-size: 15px;
+    width: 260px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+#italics-title{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+.author-name{
+    font-family: 'Helvetica';
+    font-size: 15px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+
+#shape-title{
+    font-family: 'Viaoda Libre';
+    font-size: 30px;
+    margin-left: 110px;
+    text-transform: capitalize;
+}
+
+#elements-title{
+    font-family: 'Syncopate';
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 110px;
+    text-transform: uppercase;
+}
+
+/* just discovered text-transform :) */
+
+
+#coming-soon{
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 68px;
+}
+
+#arabic-logotype{
+    font-family: 'VT323';
+    font-size: 25px;
+    margin-left: 110px;
+    margin-bottom: 70px;
 }

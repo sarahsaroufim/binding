@@ -16,6 +16,12 @@
     --font-size: 15px;
 }
 
+#latin-logotype-capital{
+    visibility: hidden;
+    font-size: 0.1px;
+    position: absolute;
+}
+
 #letter-tile{
     visibility: hidden;
     font-size: 0.1px;
