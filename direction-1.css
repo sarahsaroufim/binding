@@ -175,7 +175,7 @@
 }
 
 .reading-title-inside{
-    margin-top: 200px;
+    margin-top: 300px;
     font-family: 'roc grotesk';
     font-size: 30px;
     line-height: 103%;
@@ -201,6 +201,7 @@
     width: 160px;
     padding: 20px;
     margin-bottom: -25px;
+    margin-left: 14px;
 }
 
 #reading-3-chapters{
@@ -252,3 +253,106 @@
 
 /* please god... how do i make overflow hidden work */
 
+
+.chapter-number-a{
+    font-family: 'kulturista';
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 28px;
+}
+
+h4{
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-left: 28px;
+}
+
+p{
+    font-family: 'inter';
+    font-size: 15px;
+    margin-left: 28px;
+    width: 319px;
+}
+
+#typography-quote{
+    font-weight: 600;
+    width: 283px;
+    font-size: 18px;
+    line-height: 120%;
+    margin-left: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#example-1{
+    font-family: 'Lyon Arabic Text';
+    font-size: 76px;
+    line-height: 87px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#example-1-b{
+    font-family: 'Lyon Arabic Slanted Text';
+    font-size: 81px;
+}
+
+.example-title{
+    margin-bottom: 20px;
+}
+
+.example-movement{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.example-date{
+    font-family: 'kulturista';
+    font-weight: 600;
+    font-size: 14.5px;
+}
+
+#example-2{
+    font-family: 'helvetica';
+    font-size: 66.5px;
+    line-height: 78px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+#example-2-b{
+    font-style: italic;
+}
+
+/* <em> tags not working for some reason :( */
+
+.chapter-number-b{
+    font-family: 'kulturista';
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -40px;
+}
+
+h5{
+    margin-left: 28px;
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.chapter-number-c{
+    font-family: 'kulturista';
+    font-size: 14px;
+    margin-top: 80px;
+}
+
+h6{
+    margin-left: 28px;
+    font-family: 'inter';
+    font-size: 14px;
+    margin-bottom: 50px;
+}
