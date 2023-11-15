@@ -7,6 +7,9 @@
 /* Roc Grotesk */
 @import url("https://use.typekit.net/rwu5qlp.css");
 
+/* IBM Plex Sans Arabic */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
+
 
 :root{
     --font-display: 'kulturista';
@@ -126,7 +129,7 @@ blockquote{
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 100px;
-    margin-top: -137px;
+    margin-top: -140px;
     margin-left: 200px;
     position: relative;
     overflow: hidden;
@@ -152,13 +155,12 @@ blockquote{
 }
 
 #arabic-emblem{
-    font-size: 42px;
+    font-family: 'IBM Plex Sans Arabic';
+    font-size: 41px;
     font-weight: 700;
     background-color: white;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: 10px;
 }
 
@@ -167,5 +169,5 @@ blockquote{
     font-size: 20px;
     font-weight: 600;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
