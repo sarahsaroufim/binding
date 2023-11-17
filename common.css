@@ -1,0 +1,57 @@
+/* ........................COMMON CSS........................ */
+
+
+/* ........................FONTS........................ /*
+
+
+/* BD Console Variable */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* Blenny */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* Condor Extended */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* Madrone Std */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* TT Globs */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* Vortice */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* Karmina */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* IBM Plex Sans Arabic */ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
+/* OCR B Std Regular */ @import url("https://use.typekit.net/rwu5qlp.css");
+
+/* Lyon Arabic Text */
+@font-face {
+    font-family: 'Lyon Arabic Text Web';
+    src: url('LyonArabicText-Regular-Web.woff2') format('woff2'),
+         url('LyonArabicText-Regular-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+/* Lyon Arabic Slanted Text */
+@font-face {
+    font-family: 'Lyon Arabic Slanted Text Web';
+    src: url('LyonArabicSlantedText-Bold-Web.woff2') format('woff2'),
+         url('LyonArabicSlantedText-Bold-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+
+/* ........................ROOT FONTS........................ */
+
+
+:root{
+    --font-lyon-text: 'Lyon Arabic Text';
+    --font-lyon-slanted: 'Lyon Arabic Slanted Text';
+    --font-ocrb: 'ocr-b-std';
+}
+
+
+/* ........................ROOT FONT SIZES........................ */
+
+
+/* ........................ROOT SPACING........................ */
+
+
+/* ........................ROOT COLOR........................ */
+
+
+:root{
+    --color-acid: rgb(66, 255, 119);
+}

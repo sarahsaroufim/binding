@@ -1,0 +1,161 @@
+/* ........................HOME CSS........................ */
+
+
+#home-letter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#home-letter-grid div {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#T{
+    font-family: 'bd-console-variable';
+    font-variation-settings: 'GAME' 500;
+    font-size: 10.5em;
+    color: var(--color-acid);
+    background-color: black;
+    padding-top: 16px;
+}
+
+#Y{
+    font-family: 'blenny';
+    font-size: 8.9em;
+    background-color: white;
+}
+
+#P{
+    font-family: 'condor-extended';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 6.4em;
+    color: white;
+    background-color: black;
+    padding-top: 3px;
+}
+
+#E{
+    font-family: 'madrone-std';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6.188em;
+    background-color: var(--color-acid);
+    padding-top: 8px;
+}
+
+#L{
+    font-family: "tt-globs";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 8.125em;
+    color: var(--color-acid);
+    background-color: white;
+}
+
+#a{
+    font-family: 'karmina';
+    font-weight: 700;
+    font-size: 11.5em;
+    color: var(--color-acid);
+    background-color: black;
+    padding-bottom: 27px;
+}
+
+#t{
+    font-family: 'vortice-concept';
+    font-size: 7.875em;
+    background-color: var(--color-acid);
+    padding-top: 30px;
+    padding-right: 2px;
+}
+
+#in{
+    font-family: 'helvetica';
+    font-size: 8.125em;
+    font-weight: bold;
+    font-style: italic;
+    background-color: white;
+    padding-top: 13px;
+    padding-right: 5px;
+}
+
+#home-description{
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+    background-color: black;
+    padding-top: 42px;
+    padding-left: 27px;
+    padding-bottom: 42px;
+}
+
+#latin-logotype{
+    font-family: var(--font-ocrb);
+    font-size: 19px;
+    margin-right: 32px;
+}
+    
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    text-decoration-thickness: 0.07em;
+}
+   
+#readings{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 142px;
+    padding-left: 27px;
+}
+
+.reading-titles{
+    font-family: var(--font-ocrb);
+    font-size: 30px;
+    margin-top: 80px;
+    color: white;
+}
+
+.author-names{
+    font-family: var(--font-ocrb);
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+}
+
+#coming-soon{
+    font-family: var(--font-lyon-slanted);
+    font-size: 20px;
+    margin-left: 27px;
+    margin-bottom: 40px;
+}
+
+#arabic-logotype{
+    font-family: var(--font-ocrb);
+    font-size: 19px;
+    margin-left: 27px;
+    margin-top: 15px;
+}
+
+#arabic-emblem{
+    font-family: 'IBM Plex Sans Arabic';
+    font-size: 40px;
+    color: var(--color-acid);
+    background-color: black;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    margin-left: 27px;
+}
+
+footer{
+    background-color: var(--color-acid);
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+
+
