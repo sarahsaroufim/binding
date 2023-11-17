@@ -54,13 +54,6 @@
 /* ........................ROOT SPACING........................ */
 
 
-:root{
-    --margin-left: 1.688em;
-}
-
-
-/* ........................HOME........................ */
-
 
 #home-letter-grid {
     display: grid;
@@ -85,7 +78,7 @@
 
 #Y{
     font-family: 'blenny';
-    font-size: 8.8em;
+    font-size: 8.9em;
     background-color: white;
 }
 
@@ -190,14 +183,14 @@ a:hover{
 #coming-soon{
     font-family: var(--font-lyon-slanted);
     font-size: 20px;
-    margin-left: var(--margin-left);
+    margin-left: 27px;
     margin-bottom: 40px;
 }
 
 #arabic-logotype{
     font-family: var(--font-ocrb);
     font-size: 19px;
-    margin-left: var(--margin-left);
+    margin-left: 27px;
     margin-top: 15px;
 }
 
@@ -209,7 +202,7 @@ a:hover{
     padding-left: 13px;
     padding-right: 13px;
     padding-bottom: 5px;
-    margin-left: var(--margin-left);
+    margin-left: 27px;
 }
 
 footer{
