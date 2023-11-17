@@ -54,6 +54,13 @@
 /* ........................ROOT SPACING........................ */
 
 
+:root{
+    --margin-left: 1.688em;
+}
+
+
+/* ........................HOME........................ */
+
 
 #home-letter-grid {
     display: grid;
@@ -78,7 +85,7 @@
 
 #Y{
     font-family: 'blenny';
-    font-size: 9em;
+    font-size: 8.8em;
     background-color: white;
 }
 
@@ -158,7 +165,14 @@ a:hover{
     text-underline-offset: 0.4rem;
     text-decoration-thickness: 0.07em;
 }
-    
+   
+#readings{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 142px;
+    padding-left: 27px;
+}
+
 .reading-titles{
     font-family: var(--font-ocrb);
     font-size: 30px;
@@ -173,24 +187,17 @@ a:hover{
     color: white;
 }
 
-#readings{
-    background-color: black;
-    padding-top: 15px;
-    padding-bottom: 142px;
-    padding-left: 27px;
-}
-
 #coming-soon{
     font-family: var(--font-lyon-slanted);
     font-size: 20px;
-    margin-left: 27px;
+    margin-left: var(--margin-left);
     margin-bottom: 40px;
 }
 
 #arabic-logotype{
     font-family: var(--font-ocrb);
     font-size: 19px;
-    margin-left: 27px;
+    margin-left: var(--margin-left);
     margin-top: 15px;
 }
 
@@ -202,7 +209,7 @@ a:hover{
     padding-left: 13px;
     padding-right: 13px;
     padding-bottom: 5px;
-    margin-left: 27px;
+    margin-left: var(--margin-left);
 }
 
 footer{
