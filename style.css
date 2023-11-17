@@ -125,7 +125,6 @@
 
 #home-description{
     font-size: 20px;
-    width: 375px;
     line-height: 26px;
     color: white;
     background-color: black;
@@ -163,7 +162,7 @@ a:hover{
 #readings{
     background-color: black;
     padding-top: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 155px;
     padding-left: 27px;
 }
 
