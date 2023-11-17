@@ -47,7 +47,7 @@
 
 
 :root{
-    --color-green: rgb(66, 255, 119);
+    --color-acid: rgb(66, 255, 119);
 }
 
 
@@ -55,23 +55,30 @@
 
 
 
-#home-letter-grid{
+#home-letter-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    text-align: center;
+}
+
+#home-letter-grid div {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #T{
     font-family: 'bd-console-variable';
     font-variation-settings: 'GAME' 500;
-    font-size: 10em;
-    color: var(--color-green);
+    font-size: 10.5em;
+    color: var(--color-acid);
     background-color: black;
+    padding-top: 16px;
 }
 
 #Y{
     font-family: 'blenny';
-    font-size: 8.438em;
+    font-size: 9em;
     background-color: white;
 }
 
@@ -79,9 +86,10 @@
     font-family: 'condor-extended';
     font-weight: 700;
     font-style: italic;
-    font-size: 6.25em;
+    font-size: 6.4em;
     color: white;
     background-color: black;
+    padding-top: 3px;
 }
 
 #E{
@@ -89,7 +97,8 @@
     font-weight: 400;
     font-style: normal;
     font-size: 6.188em;
-    background-color: var(--color-green);
+    background-color: var(--color-acid);
+    padding-top: 8px;
 }
 
 #L{
@@ -97,22 +106,25 @@
     font-weight: 200;
     font-style: normal;
     font-size: 8.125em;
-    color: var(--color-green);
+    color: var(--color-acid);
     background-color: white;
 }
 
 #a{
     font-family: 'karmina';
     font-weight: 700;
-    font-size: 10.625em;
-    color: var(--color-green);
+    font-size: 11.5em;
+    color: var(--color-acid);
     background-color: black;
+    padding-bottom: 27px;
 }
 
 #t{
     font-family: 'vortice-concept';
     font-size: 7.875em;
-    background-color: var(--color-green);
+    background-color: var(--color-acid);
+    padding-top: 30px;
+    padding-right: 2px;
 }
 
 #in{
@@ -121,6 +133,8 @@
     font-weight: bold;
     font-style: italic;
     background-color: white;
+    padding-top: 12px;
+    padding-right: 5px;
 }
 
 #home-description{
@@ -128,9 +142,9 @@
     line-height: 26px;
     color: white;
     background-color: black;
-    padding-top: 55px;
+    padding-top: 42px;
     padding-left: 27px;
-    padding-bottom: 55px;
+    padding-bottom: 42px;
 }
 
 #latin-logotype{
@@ -162,7 +176,7 @@ a:hover{
 #readings{
     background-color: black;
     padding-top: 15px;
-    padding-bottom: 155px;
+    padding-bottom: 142px;
     padding-left: 27px;
 }
 
@@ -183,7 +197,7 @@ a:hover{
 #arabic-emblem{
     font-family: 'IBM Plex Sans Arabic';
     font-size: 40px;
-    color: var(--color-green);
+    color: var(--color-acid);
     background-color: black;
     padding-left: 13px;
     padding-right: 13px;
@@ -192,7 +206,7 @@ a:hover{
 }
 
 footer{
-    background-color: var(--color-green);
+    background-color: var(--color-acid);
     padding-top: 38px;
     padding-bottom: 30px;
 }
