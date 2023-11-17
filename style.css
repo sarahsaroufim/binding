@@ -11,7 +11,7 @@
 /* TT Globs */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* Vortice */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* Karmina */ @import url("https://use.typekit.net/rwu5qlp.css");
-/* IBM Plex Sans Sarabic */ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
+/* IBM Plex Sans Arabic */ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
 /* OCR B Std Regular */ @import url("https://use.typekit.net/rwu5qlp.css");
 
 /* Lyon Arabic Text */
@@ -126,6 +126,7 @@
 #home-description{
     font-size: 20px;
     width: 375px;
+    line-height: 26px;
     color: white;
     background-color: black;
     padding-top: 55px;
@@ -139,6 +140,11 @@
     margin-right: 32px;
 }
     
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    text-decoration-thickness: 0.07em;
+}
     
 .reading-titles{
     font-family: var(--font-ocrb);
