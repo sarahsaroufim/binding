@@ -7,7 +7,7 @@
 }
 
 #home-letter-grid div {
-    height: 180px;
+    height: calc(11 * var(--root-unit));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,15 +16,15 @@
 #T{
     font-family: 'bd-console-variable';
     font-variation-settings: 'GAME' 500;
-    font-size: calc(10.5 * var(--root-font-size));
+    font-size: calc(10.5 * var(--root-unit));
     color: var(--color-acid);
     background-color: black;
-    padding-top: 16px;
+    padding-top: var(--root-unit);
 }
 
 #Y{
     font-family: 'blenny';
-    font-size: calc(9 * var(--root-font-size));
+    font-size: calc(9 * var(--root-unit));
     background-color: white;
 }
 
@@ -32,26 +32,26 @@
     font-family: 'condor-extended';
     font-weight: 700;
     font-style: italic;
-    font-size: calc(6.5 * var(--root-font-size));
+    font-size: calc(6.5 * var(--root-unit));
     color: white;
     background-color: black;
-    padding-top: 7px;
+    padding-top: calc(0.4 * var(--root-unit));
 }
 
 #E{
     font-family: 'madrone-std';
     font-weight: 400;
     font-style: normal;
-    font-size: calc(6.3 * var(--root-font-size));
+    font-size: calc(6.3 * var(--root-unit));
     background-color: var(--color-acid);
-    padding-top: 8px;
+    padding-top: calc(0.5 * var(--root-unit));
 }
 
 #L{
     font-family: "tt-globs";
     font-weight: 200;
     font-style: normal;
-    font-size: calc(8.1 * var(--root-font-size));
+    font-size: calc(8.1 * var(--root-unit));
     color: var(--color-acid);
     background-color: white;
 }
@@ -59,85 +59,89 @@
 #a{
     font-family: 'karmina';
     font-weight: 700;
-    font-size: calc(11.5 * var(--root-font-size));
+    font-size: calc(11.5 * var(--root-unit));
     color: var(--color-acid);
     background-color: black;
-    padding-bottom: 27px;
+    padding-bottom: calc(1.35 * var(--comfort-font-size));
 }
 
 #t{
     font-family: 'vortice-concept';
-    font-size: calc(7.8 * var(--root-font-size));
+    font-size: calc(7.8 * var(--root-unit));
     background-color: var(--color-acid);
-    padding-top: 30px;
-    padding-right: 2px;
+    padding-top: calc(1.5 * var(--comfort-font-size));
+    padding-right: calc(0.1 * var(--comfort-font-size));
 }
 
 #in{
     font-family: 'helvetica';
-    font-size: calc(8.1 * var(--root-font-size));
+    font-size: calc(8.1 * var(--root-unit));
     font-weight: bold;
     font-style: italic;
     background-color: white;
-    padding-top: 11px;
-    padding-right: 5px;
+    padding-top: calc(0.7 * var(--root-unit));
+    padding-right: calc(0.35 * var(--comfort-font-size));
 }
 
 #home-description{
     font-size: var(--comfort-font-size);
-    line-height: 30px;
+    line-height: calc(1.5 * var(--comfort-font-size));
     color: white;
     background-color: black;
-    padding-top: 42px;
-    padding-left: 27px;
-    padding-bottom: 42px;
+    padding-top: var(--medium-gap);
+    padding-left: var(--side-margin);
+    padding-bottom: var(--medium-gap);
 }
 
 #latin-logotype{
     font-family: var(--font-ocrb);
     font-size: var(--comfort-font-size);
-    margin-right: 25px;
+    margin-right: calc(0.9 * var(--side-margin));
 }
     
 a:hover{
     text-decoration: underline;
-    text-underline-offset: 0.4rem;
-    text-decoration-thickness: 0.07em;
+    text-underline-offset: calc(0.5 * var(--root-unit));
+    text-decoration-thickness: calc(0.1 * var(--root-unit));
 }
    
 #readings{
     background-color: black;
-    padding-top: 15px;
+    padding-top: var(--root-unit);
     padding-bottom: 142px;
-    padding-left: 27px;
+    padding-left: var(--side-margin);
 }
 
 .reading-titles{
     font-family: var(--font-ocrb);
     font-size: var(--h1-font-size);
-    margin-top: 80px;
+    margin-top: calc(2 * var(--medium-gap));
     color: white;
 }
 
 .author-names{
     font-family: var(--font-ocrb);
     font-size: var(--root-font-size);
-    margin-top: 5px;
+    margin-top: var(--small-gap);
     color: white;
+}
+
+.north-east-arrow{
+    font-family: 'Helvetica';
+    font-size: calc(1.9 * var(--root-unit));
 }
 
 #coming-soon{
     font-family: var(--font-lyon-slanted);
     font-size: var(--comfort-font-size);
-    margin-left: 27px;
-    margin-bottom: 40px;
+    margin-left: var(--side-margin);
+    margin-bottom: var(--medium-gap);
 }
 
 #arabic-logotype{
     font-family: var(--font-ocrb);
     font-size: var(--comfort-font-size);
-    margin-left: 27px;
-    margin-top: 15px;
+    margin-left: var(--side-margin);
 }
 
 #arabic-emblem{
@@ -145,14 +149,16 @@ a:hover{
     font-size: calc(2 * var(--comfort-font-size));
     color: var(--color-acid);
     background-color: black;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-bottom: 5px;
-    margin-left: 27px;
+    padding-left: calc( 0.5 * var(--side-margin));
+    padding-right: calc( 0.5 * var(--side-margin));
+    padding-bottom: var(--small-gap);
+    margin-left: var(--side-margin);
+    margin-bottom: calc(2 * var(--small-gap));
+    width: calc(3.2 * var(--comfort-font-size));
 }
 
 footer{
     background-color: var(--color-acid);
-    padding-top: 38px;
-    padding-bottom: 30px;
+    padding-top: var(--medium-gap);
+    padding-bottom: calc(0.4 * var(--medium-gap));
 }

@@ -43,17 +43,25 @@
 }
 
 
-/* ........................ROOT FONT SIZEs........................ */
+/* ........................ROOT FONT SIZES........................ */
 
 
 :root{
-    --root-font-size: 1rem;
-    --comfort-font-size: calc(1.25 * var(--root-font-size));
-    --h1-font-size: calc(2 * var(--root-font-size));
+    --root-unit: 1rem;
+
+    --comfort-font-size: calc(1.25 * var(--root-unit));
+    --h1-font-size: calc(2 * var(--root-unit));
 }
 
 
 /* ........................ROOT SPACING........................ */
+
+
+:root{
+    --side-margin: calc(1.69 * var(--root-unit));
+    --small-gap: calc(0.25 * var(--comfort-font-size));
+    --medium-gap: calc(2 * var(--comfort-font-size));
+}
 
 
 /* ........................ROOT COLOR........................ */
