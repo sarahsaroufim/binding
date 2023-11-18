@@ -1,1 +1,32 @@
 /* ........................"ITALICS" CSS........................ */
+
+h1{
+    font-family: 'franklin gothic atf';
+    font-weight: 900;
+    font-style: italic;
+    padding-left: calc(2 * var(--medium-gap));
+    font-size: calc(2 * var(--h1-font-size));
+    color: black;
+    background-color: var(--color-acid);
+}
+
+#precise::before,
+#precise::after {
+	content: '';
+	display: block;
+	visibility: hidden;
+}
+
+#precise::before { margin-top: var(--inset-top); }
+#precise::after { margin-bottom: var(--inset-bottom); }
+
+#precise{
+    --inset-top: -1rem;
+	--inset-bottom: -1rem;
+
+    display: flow-root;
+	margin-left: var(--inset--left);
+	margin-right: var(--inset--right);
+	width: fit-content;
+}
+
