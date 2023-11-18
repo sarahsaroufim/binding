@@ -43,7 +43,14 @@
 }
 
 
-/* ........................ROOT FONT SIZES........................ */
+/* ........................ROOT FONT SIZEs........................ */
+
+
+:root{
+    --root-font-size: 1rem;
+    --comfort-font-size: calc(1.25 * var(--root-font-size));
+    --h1-font-size: calc(2 * var(--root-font-size));
+}
 
 
 /* ........................ROOT SPACING........................ */

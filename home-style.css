@@ -16,7 +16,7 @@
 #T{
     font-family: 'bd-console-variable';
     font-variation-settings: 'GAME' 500;
-    font-size: 10.5em;
+    font-size: calc(10.5 * var(--root-font-size));
     color: var(--color-acid);
     background-color: black;
     padding-top: 16px;
@@ -24,7 +24,7 @@
 
 #Y{
     font-family: 'blenny';
-    font-size: 8.9em;
+    font-size: calc(9 * var(--root-font-size));
     background-color: white;
 }
 
@@ -32,17 +32,17 @@
     font-family: 'condor-extended';
     font-weight: 700;
     font-style: italic;
-    font-size: 6.4em;
+    font-size: calc(6.5 * var(--root-font-size));
     color: white;
     background-color: black;
-    padding-top: 3px;
+    padding-top: 7px;
 }
 
 #E{
     font-family: 'madrone-std';
     font-weight: 400;
     font-style: normal;
-    font-size: 6.188em;
+    font-size: calc(6.3 * var(--root-font-size));
     background-color: var(--color-acid);
     padding-top: 8px;
 }
@@ -51,7 +51,7 @@
     font-family: "tt-globs";
     font-weight: 200;
     font-style: normal;
-    font-size: 8.125em;
+    font-size: calc(8.1 * var(--root-font-size));
     color: var(--color-acid);
     background-color: white;
 }
@@ -59,7 +59,7 @@
 #a{
     font-family: 'karmina';
     font-weight: 700;
-    font-size: 11.5em;
+    font-size: calc(11.5 * var(--root-font-size));
     color: var(--color-acid);
     background-color: black;
     padding-bottom: 27px;
@@ -67,7 +67,7 @@
 
 #t{
     font-family: 'vortice-concept';
-    font-size: 7.875em;
+    font-size: calc(7.8 * var(--root-font-size));
     background-color: var(--color-acid);
     padding-top: 30px;
     padding-right: 2px;
@@ -75,17 +75,17 @@
 
 #in{
     font-family: 'helvetica';
-    font-size: 8.125em;
+    font-size: calc(8.1 * var(--root-font-size));
     font-weight: bold;
     font-style: italic;
     background-color: white;
-    padding-top: 13px;
+    padding-top: 11px;
     padding-right: 5px;
 }
 
 #home-description{
-    font-size: 20px;
-    line-height: 26px;
+    font-size: var(--comfort-font-size);
+    line-height: 30px;
     color: white;
     background-color: black;
     padding-top: 42px;
@@ -95,8 +95,8 @@
 
 #latin-logotype{
     font-family: var(--font-ocrb);
-    font-size: 19px;
-    margin-right: 32px;
+    font-size: var(--comfort-font-size);
+    margin-right: 25px;
 }
     
 a:hover{
@@ -114,35 +114,35 @@ a:hover{
 
 .reading-titles{
     font-family: var(--font-ocrb);
-    font-size: 30px;
+    font-size: var(--h1-font-size);
     margin-top: 80px;
     color: white;
 }
 
 .author-names{
     font-family: var(--font-ocrb);
-    font-size: 15px;
+    font-size: var(--root-font-size);
     margin-top: 5px;
     color: white;
 }
 
 #coming-soon{
     font-family: var(--font-lyon-slanted);
-    font-size: 20px;
+    font-size: var(--comfort-font-size);
     margin-left: 27px;
     margin-bottom: 40px;
 }
 
 #arabic-logotype{
     font-family: var(--font-ocrb);
-    font-size: 19px;
+    font-size: var(--comfort-font-size);
     margin-left: 27px;
     margin-top: 15px;
 }
 
 #arabic-emblem{
     font-family: 'IBM Plex Sans Arabic';
-    font-size: 40px;
+    font-size: calc(2 * var(--comfort-font-size));
     color: var(--color-acid);
     background-color: black;
     padding-left: 13px;
@@ -156,6 +156,3 @@ footer{
     padding-top: 38px;
     padding-bottom: 30px;
 }
-
-
-
