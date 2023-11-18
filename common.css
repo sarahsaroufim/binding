@@ -49,7 +49,7 @@
 :root{
     --root-unit: 1rem;
 
-    --comfort-font-size: calc(1.25 * var(--root-unit));
+    --comfort-font-size: calc(1.29 * var(--root-unit));
     --h1-font-size: calc(2 * var(--root-unit));
 }
 

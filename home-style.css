@@ -7,7 +7,7 @@
 }
 
 #home-letter-grid div {
-    height: calc(11 * var(--root-unit));
+    height: 11rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
 #T{
     font-family: 'bd-console-variable';
     font-variation-settings: 'GAME' 500;
-    font-size: calc(10.5 * var(--root-unit));
+    font-size: 10.5rem;
     color: var(--color-acid);
     background-color: black;
     padding-top: var(--root-unit);
@@ -24,7 +24,7 @@
 
 #Y{
     font-family: 'blenny';
-    font-size: calc(9 * var(--root-unit));
+    font-size: 9rem;
     background-color: white;
 }
 
@@ -32,7 +32,7 @@
     font-family: 'condor-extended';
     font-weight: 700;
     font-style: italic;
-    font-size: calc(6.5 * var(--root-unit));
+    font-size: 6.5rem;
     color: white;
     background-color: black;
     padding-top: calc(0.4 * var(--root-unit));
@@ -42,7 +42,7 @@
     font-family: 'madrone-std';
     font-weight: 400;
     font-style: normal;
-    font-size: calc(6.3 * var(--root-unit));
+    font-size: 6.3rem;
     background-color: var(--color-acid);
     padding-top: calc(0.5 * var(--root-unit));
 }
@@ -51,7 +51,7 @@
     font-family: "tt-globs";
     font-weight: 200;
     font-style: normal;
-    font-size: calc(8.1 * var(--root-unit));
+    font-size: 8.1rem;
     color: var(--color-acid);
     background-color: white;
 }
@@ -59,7 +59,7 @@
 #a{
     font-family: 'karmina';
     font-weight: 700;
-    font-size: calc(11.5 * var(--root-unit));
+    font-size: 11.5rem;
     color: var(--color-acid);
     background-color: black;
     padding-bottom: calc(1.35 * var(--comfort-font-size));
@@ -67,7 +67,7 @@
 
 #t{
     font-family: 'vortice-concept';
-    font-size: calc(7.8 * var(--root-unit));
+    font-size: 7.8rem;
     background-color: var(--color-acid);
     padding-top: calc(1.5 * var(--comfort-font-size));
     padding-right: calc(0.1 * var(--comfort-font-size));
@@ -75,7 +75,7 @@
 
 #in{
     font-family: 'helvetica';
-    font-size: calc(8.1 * var(--root-unit));
+    font-size: 8.1rem;
     font-weight: bold;
     font-style: italic;
     background-color: white;
@@ -84,6 +84,7 @@
 }
 
 #home-description{
+    font-family: var(--font-lyon-slanted);
     font-size: var(--comfort-font-size);
     line-height: calc(1.5 * var(--comfort-font-size));
     color: white;
@@ -96,7 +97,7 @@
 #latin-logotype{
     font-family: var(--font-ocrb);
     font-size: var(--comfort-font-size);
-    margin-right: calc(0.9 * var(--side-margin));
+    margin-right: calc(0.8 * var(--side-margin));
 }
     
 a:hover{
@@ -127,7 +128,7 @@ a:hover{
 }
 
 .north-east-arrow{
-    font-family: 'Helvetica';
+    font-family: 'helvetica';
     font-size: calc(1.9 * var(--root-unit));
 }
 
@@ -154,7 +155,7 @@ a:hover{
     padding-bottom: var(--small-gap);
     margin-left: var(--side-margin);
     margin-bottom: calc(2 * var(--small-gap));
-    width: calc(3.2 * var(--comfort-font-size));
+    width: calc(3.15 * var(--comfort-font-size));
 }
 
 footer{
