@@ -109,7 +109,7 @@ a:hover{
 #readings{
     background-color: black;
     padding-top: var(--root-unit);
-    padding-bottom: 142px;
+    padding-bottom: calc(3.5 * var(--medium-gap));
     padding-left: var(--side-margin);
 }
 
@@ -150,8 +150,8 @@ a:hover{
     font-size: calc(2 * var(--comfort-font-size));
     color: var(--color-acid);
     background-color: black;
-    padding-left: calc( 0.5 * var(--side-margin));
-    padding-right: calc( 0.5 * var(--side-margin));
+    padding-left: calc(0.5 * var(--side-margin));
+    padding-right: calc(0.5 * var(--side-margin));
     padding-bottom: var(--small-gap);
     margin-left: var(--side-margin);
     margin-bottom: calc(2 * var(--small-gap));
