@@ -88,8 +88,6 @@
 #home-description{
     font-family: var(--font-lyon-slanted);
     font-size: var(--comfort-font-size);
-    font-weight: 400;
-    font-style: normal;
     line-height: calc(1.5 * var(--comfort-font-size));
     color: white;
     background-color: black;
@@ -138,8 +136,6 @@ a:hover{
 #coming-soon{
     font-family: var(--font-lyon-slanted);
     font-size: var(--comfort-font-size);
-    font-weight: 400;
-    font-style: normal;
     margin-left: var(--side-margin);
     margin-bottom: var(--medium-gap);
 }
