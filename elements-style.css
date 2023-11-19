@@ -14,7 +14,7 @@ h1{
 }
 
 #the{
-    font-size: calc(1.5 * var(--comfort-font-size));
+    font-weight: 600;
 }
 
 #of{
