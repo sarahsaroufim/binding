@@ -1,27 +1,47 @@
-/* ........................"THE ELEMENTS OF TYPOGRAPHIC STYLE" CSS........................ /*
+/* ........................"THE ELEMENTS OF TYPOGRAPHIC STYLE" CSS........................ */
 
 
-    #reading-title-inside{
-        visibility: hidden;
-        font-size: 0.1px;
-        position: absolute;
-    }
+h1{
+    font-family: var(--font-lyon-text);
+    font-size: calc(1.8 * var(--comfort-font-size));
+    font-weight: 700;
+    margin-left: var(--side-margin);
+    text-indent: var(--medium-gap);
+    word-spacing: var(--small-gap);
+}
 
-    #reading-title-inside-capital{
-        font-family: 'ocr-b-std';
-        font-size: 30px;
-        margin-top: 100px;
-        margin-left: 31px;
-    }
+#the{
+    font-size: calc(1.5 * var(--comfort-font-size));
+}
 
-    #author-name-inside-capital{
-        font-family: 'ocr-b-std';
-        font-size: 15px;
-        margin-top: 5px;
-        margin-left: 31px;
-    }
+#of{
+    font-family: var(--font-lyon-slanted);
+    font-size: calc(1.5 * var(--comfort-font-size));
+}
 
-    #reading-3-blockquote{
+#typographic{
+    text-decoration: underline;
+    text-decoration-color: var(--color-acid);
+    text-decoration-thickness: calc(0.6 * var(--small-gap));
+    text-underline-offset: var(--small-gap);
+}
+
+#author-name{
+    font-family: var(--font-ocrb);
+    font-size: var(--root-font-size);
+    margin-top: calc(2 * var(--small-gap));
+    margin-left: var(--side-margin);
+    margin-bottom: calc(1.5 * var(--big-gap));
+}
+
+
+
+
+
+
+
+
+    /* #reading-3-blockquote{
         font-family: 'Lyon Arabic Slanted Text';
         font-size: 19.2px;
         width: 319px;
@@ -176,4 +196,4 @@
         font-size: 14px;
         margin-bottom: 50px;
         text-align: center;
-    }
+    } */
