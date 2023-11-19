@@ -1,8 +1,11 @@
 /* ........................"THE ELEMENTS OF TYPOGRAPHIC STYLE" CSS........................ */
 
 
+body{
+    font-family: var(--font-garamond);
+}
+
 h1{
-    font-family: var(--font-lyon-text);
     font-size: calc(1.8 * var(--comfort-font-size));
     font-weight: 700;
     margin-left: var(--side-margin);
@@ -15,7 +18,7 @@ h1{
 }
 
 #of{
-    font-family: var(--font-lyon-slanted);
+    font-style: italic;
     font-size: calc(1.5 * var(--comfort-font-size));
 }
 
@@ -35,7 +38,7 @@ h1{
 }
 
 blockquote{
-    font-family: var(--font-lyon-slanted);
+    font-style: italic;
     font-size: var(--comfort-font-size);
     margin-left: var(--side-margin);
     margin-right: var(--side-margin);
@@ -53,18 +56,25 @@ blockquote{
 }
 
 #chapters{
-    font-family: var(--font-lyon-slanted);
-    font-weight: 600;
-    font-size: calc(1.15 * var(--root-unit));
     padding-left: calc(1.7 * var(--side-margin));
     list-style-type: decimal;
     background-color: var(--color-acid);
     padding-top: calc(1.5 * var(--side-margin));
     padding-bottom: calc(1.5 * var(--side-margin));
     line-height: calc(0.8 * var(--medium-gap));
+}
+
+.chapter-titles {
+    font-style: italic;
+    font-weight: 600;
+    font-size: calc(1.15 * var(--root-unit));
     text-decoration: underline;
     text-decoration-thickness: calc(0.3 * var(--small-gap));
     text-underline-offset: calc(0.5 * var(--small-gap));
+}
+
+.chapter-titles:hover {
+    text-decoration: none;
 }
 
 #appendix{
@@ -73,8 +83,7 @@ blockquote{
     line-height: calc(0.7 * var(--medium-gap));
 }
 
-.appendix-style{
-    font-family: var(--font-lyon-text);
+.appendix-word{
     font-weight: 700;
     font-size: calc(0.9 * var(--root-unit));
     padding-left: var(--side-margin);
@@ -83,13 +92,17 @@ blockquote{
     text-underline-offset: calc(0.5 * var(--small-gap));
 }
 
+.appendix-word:hover {
+    text-decoration: none;
+}
+
 .small-chapters{
-    font-family: var(--font-lyon-slanted);
+    font-style: italic;
     font-size: var(--comfort-font-size);
 }
 
 h2{
-    font-family: var(--font-lyon-slanted);
+    font-style: italic;
     font-weight: 900;
     font-size: calc(1.5 * var(--comfort-font-size));
     text-align: center;
@@ -97,7 +110,7 @@ h2{
 }
 
 .chapter-numbers{
-    font-family: var(--font-lyon-slanted);
+    font-style: italic;
     font-size: calc(1.5 * var(--comfort-font-size));
     font-weight: 700;
     background-color: var(--color-acid);
@@ -113,8 +126,7 @@ h2{
 }
 
 .main-text{
-    font-family: var(--font-lyon-text);
-    font-size: calc(0.9 * var(--comfort-font-size));
+    font-size: var(--comfort-font-size);
     margin-left: var(--side-margin);
     padding-right: var(--side-margin);
     margin-bottom: calc(4 * var(--small-gap));
