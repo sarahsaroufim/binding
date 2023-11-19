@@ -25,20 +25,16 @@
 
 /* Lyon Arabic Text */
 @font-face {
-    font-family: 'Lyon Arabic Text Web';
+    font-family: 'Lyon Arabic Text';
     src: url('LyonArabicText-Regular-Web.woff2') format('woff2'),
          url('LyonArabicText-Regular-Web.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
     }
 
 /* Lyon Arabic Slanted Text */
 @font-face {
-    font-family: 'Lyon Arabic Slanted Text Web';
+    font-family: 'Lyon Arabic Slanted Text';
     src: url('LyonArabicSlantedText-Bold-Web.woff2') format('woff2'),
          url('LyonArabicSlantedText-Bold-Web.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
     }
 
 
