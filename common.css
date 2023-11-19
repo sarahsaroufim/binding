@@ -48,8 +48,8 @@
 
 
 :root{
-    --font-lyon-text: 'Lyon Arabic Text';
-    --font-lyon-slanted: 'Lyon Arabic Slanted Text';
+    --font-lyon-text: 'Lyon Arabic Text', 'EB Garmond';
+    --font-lyon-slanted: 'Lyon Arabic Slanted Text' 'EB Garamond';
     --font-ocrb: 'ocr-b-std';
     --font-roboto-condensed: 'Roboto Condensed';
     --font-roboto: 'Roboto';
