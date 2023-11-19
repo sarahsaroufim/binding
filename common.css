@@ -23,18 +23,22 @@
          url('fonts/Chomsky.woff') format('woff'),
 }
 
-/* Lyon Arabic Text */
+/* Lyon Arabic Text - Regular */
 @font-face {
-    font-family: 'Lyon Arabic Text';
+    font-family: 'Lyon Arabic Text Web';
     src: url('LyonArabicText-Regular-Web.woff2') format('woff2'),
-         url('LyonArabicText-Regular-Web.woff') format('woff');
+    url('LyonArabicText-Regular-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
     }
 
-/* Lyon Arabic Slanted Text */
+/* Lyon Arabic Slanted Text - Regular */
 @font-face {
-    font-family: 'Lyon Arabic Slanted Text';
-    src: url('LyonArabicSlantedText-Bold-Web.woff2') format('woff2'),
-         url('LyonArabicSlantedText-Bold-Web.woff') format('woff');
+    font-family: 'Lyon Arabic Slanted Text Web';
+    src: url('LyonArabicSlantedText-RegularNo2-Web.woff2') format('woff2'),
+    url('LyonArabicSlantedText-RegularNo2-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
     }
 
 
