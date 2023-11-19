@@ -97,7 +97,7 @@
     background-color: black;
     height: 42vw;
     width: 50vw;
-    margin-bottom: var(--big-gap);
+    margin-bottom: calc(1.5 * var(--medium-gap));
     text-align: center;
 }
 
