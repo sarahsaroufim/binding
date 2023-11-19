@@ -34,7 +34,7 @@ h1{
     font-family: var(--font-ocrb);
     font-size: var(--root-font-size);
     margin-top: calc(2 * var(--small-gap));
-    margin-left: var(--medium-gap);
+    margin-left: var(--side-margin);
     margin-bottom: calc(1.5 * var(--big-gap));
 }
 
