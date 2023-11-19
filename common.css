@@ -105,5 +105,4 @@
     border-style: solid;
     border-color: var(--color-acid);
     border-width: calc(0.6 * var(--small-gap));
-
 }

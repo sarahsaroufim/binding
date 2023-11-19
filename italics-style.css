@@ -35,7 +35,7 @@ h1{
     font-size: var(--root-font-size);
     margin-top: calc(2 * var(--small-gap));
     margin-left: var(--side-margin);
-    margin-bottom: calc(1.5 * var(--big-gap));
+    margin-bottom: var(--big-gap);
 }
 
 #start-quote {
@@ -45,7 +45,6 @@ h1{
     font-size: var(--comfort-font-size);
     position: relative;
     margin-left: calc(1.4 * var(--medium-gap));
-    margin-bottom: var(--medium-gap);
     padding-left: calc(1.6 * var(--small-gap));
     margin-right: calc(1.4 * var(--medium-gap));
     width: fit-content;
@@ -75,7 +74,7 @@ h2{
     font-style: italic;
     font-size: var(--comfort-font-size);
     margin-left: var(--side-margin);
-    margin-bottom: calc(4 * var(--small-gap));
+    margin-bottom: calc(4.2 * var(--small-gap));
     margin-top: calc(1.5 * var(--medium-gap));
     padding-right: calc(1.5 * var(--big-gap));
     rotate: -2deg;
