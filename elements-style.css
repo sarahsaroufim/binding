@@ -130,6 +130,8 @@ h2{
     margin-left: var(--side-margin);
     padding-right: var(--side-margin);
     margin-bottom: calc(4 * var(--small-gap));
+    -webkit-hyphens: manual;
+    hyphens: manual;
 }
 
 
