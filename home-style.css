@@ -110,7 +110,7 @@ a:hover{
 #readings{
     background-color: black;
     padding-top: var(--root-unit);
-    padding-bottom: calc(3.5 * var(--medium-gap));
+    padding-bottom: var(--big-gap);
     padding-left: var(--side-margin);
 }
 

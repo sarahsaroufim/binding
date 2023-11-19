@@ -14,6 +14,7 @@
 /* IBM Plex Sans Arabic */ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
 /* OCR B Std Regular */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* ATF Franklin Gothic */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* EB Garamond */ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
 
 /* Chomsky Blackletter */
 @font-face {
@@ -45,8 +46,8 @@
 
 
 :root{
-    --font-lyon-text: 'Lyon Arabic Text';
-    --font-lyon-slanted: 'Lyon Arabic Slanted Text';
+    --font-lyon-text: 'Lyon Arabic Text', 'EB Garamond', serif;
+    --font-lyon-slanted: 'Lyon Arabic Slanted Text', 'EB Garamond', serif;
     --font-ocrb: 'ocr-b-std';
 }
 
@@ -69,6 +70,7 @@
     --side-margin: calc(1.69 * var(--root-unit));
     --small-gap: calc(0.25 * var(--comfort-font-size));
     --medium-gap: calc(2 * var(--comfort-font-size));
+    --big-gap: calc(3.5 * var(--medium-gap));
 }
 
 
@@ -77,4 +79,26 @@
 
 :root{
     --color-acid: rgb(66, 255, 119);
+}
+
+
+/* ........................HOME BUTTON........................ */
+
+
+.home-button{
+    font-family: 'bd-console-variable';
+    font-variation-settings: 'GAME' 500;
+    font-size: 44vw;
+    color: var(--color-acid);
+    background-color: black;
+    height: 42vw;
+    width: 50vw;
+    margin-bottom: var(--big-gap);
+    text-align: center;
+}
+
+.home-button:hover{
+    border-style: solid;
+    border-color: var(--color-acid);
+    border-width: 2vw;
 }

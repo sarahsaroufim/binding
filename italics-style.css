@@ -21,8 +21,8 @@ h1{
 #precise::after { margin-bottom: var(--inset-bottom); }
 
 #precise{
-    --inset-top: -1rem;
-	--inset-bottom: -1rem;
+    --inset-top: -1.05rem;
+	--inset-bottom: -1.05rem;
 
     display: flow-root;
 	margin-left: var(--inset--left);
