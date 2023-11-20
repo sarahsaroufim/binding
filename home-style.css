@@ -1,6 +1,5 @@
 /* ........................HOME CSS........................ */
-
-
+ 
 #home-letter-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -164,4 +163,57 @@ footer{
     background-color: var(--color-acid);
     padding-top: var(--medium-gap);
     padding-bottom: calc(0.4 * var(--medium-gap));
+}
+
+
+@media screen and (min-width: 546px) {
+    
+#home-letter-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+    
+#home-letter-grid div {
+    height: 24vw;
+}
+
+#T{
+    font-size: 25vw;
+    padding-top: calc(0.7 * var(--medium-gap));
+}
+
+#Y{
+    font-size: 22vw;
+    padding-top: var(--small-gap);
+}
+
+#P{
+    font-size: 17vw;
+    padding-top: calc(0.7 * var(--medium-gap));
+}
+
+#E{
+    font-size: 17vw;
+    padding-left: var(--medium-gap);
+    padding-top: calc(0.8 * var(--medium-gap));
+}
+
+#L{
+    font-size: 18.5vw;
+}
+
+#a{
+    font-size: 25vw;
+    padding-top: calc(0.35 * var(--medium-gap));
+}
+
+#t{
+    font-size: 18vw;
+    padding-bottom: calc(1.6 * var(--small-gap));
+}
+
+#in{
+    font-size: 18.5vw;
+}
+
 }
