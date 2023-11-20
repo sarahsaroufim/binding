@@ -334,10 +334,13 @@ h2{
 }
 
 h3{
-    font-size: var(--root-unit);
+    font-size: var(--comfort-font-size);
     font-weight: 600;
     text-align: center;
     margin-bottom: calc(0.5 * var(--medium-gap));
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(1.5 * var(--big-gap));
 }
 
 h4{
@@ -349,6 +352,43 @@ h4{
     margin-bottom: var(--medium-gap);
 }
 
-#h4-2{
+.subtitle-top-margin{
     margin-top: calc(2 * var(--medium-gap));
+}
+
+#squares-container{
+    position: relative;
+}
+
+#square-1,
+#square-2,
+#square-3,
+#square-4 {
+    position: absolute;
+    text-align: center;
+}
+
+#square-1{
+    font-size: 12pt;
+}
+
+#square-2{
+    font-size: 18pt;
+}
+
+#square-3{
+    font-size: 24pt;
+}
+
+#square-4{
+    font-size: 36pt;
+}
+
+.square-size-number{
+    color: black;
+    font-style: italic;
+    mix-blend-mode: normal;
+    font-family: var(--font-garamond);
+    font-size: var(--root-unit);
+    position: absolute;
 }
