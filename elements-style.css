@@ -98,7 +98,8 @@ blockquote{
 
 .small-chapters{
     font-style: italic;
-    font-size: var(--comfort-font-size);
+    font-size: calc(1.1 * var(--comfort-font-size));
+    margin-left: var(--small-gap);
 }
 
 h2{
@@ -134,63 +135,140 @@ h2{
     hyphens: manual;
 }
 
+#typography-quote{
+    font-style: italic;
+    margin-top: calc(1.5 * var(--medium-gap));
+}
 
-    /* 
+.example{
+    font-size: calc(2 * var(--medium-gap));
+    line-height: calc(2 * var(--small-gap));
+    margin-bottom: var(--medium-gap);
+    margin-top: var(--big-gap);
+    line-height: calc(2.5 * var(--medium-gap));
+    text-align: center;
+}
 
-    #typography-quote{
-        font-family: 'Lyon Arabic Slanted Text';
-        width: 320px;
-        font-size: 18px;
-        line-height: 120%;
-        margin-left: 30px;
-        margin-top: 35px;
-        margin-bottom: 35px;
-        background-color: rgb(66, 255, 119);
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+.example-italic{
+    font-style: italic
+}
+    
+.example-title{
+    margin-bottom: calc(0.5 * var(--medium-gap));
+    font-family: var(--font-ocrb);
+    margin-left: var(--side-margin);
+    font-size: var(--root-unit);
+}
+    
+.example-movement{
+    font-weight: 900;
+}
+    
+.example-date{
+    font-family: var(--font-garamond);
+    font-weight: 600;
+    font-size: calc(1.1 * var(--root-unit));
+}
 
-    #example-1{
-        font-family: 'Lyon Arabic Text';
-        font-size: 76px;
-        line-height: 87px;
-        margin-bottom: 30px;
-        margin-top: 60px;
-        text-align: center;
-    }
-    
-    #example-1-b{
-        font-family: 'Lyon Arabic Slanted Text';
-        font-size: 81px;
-    }
-    
-    .example-title{
-        margin-bottom: 20px;
-        font-family: 'ocr-b-std';
-    }
-    
-    .example-movement{
-        font-size: 16px;
-        font-weight: 900;
-    }
-    
-    .example-date{
-        font-family: 'Lyon Arabic Text';
-        font-weight: 600;
-        font-size: 15px;
-    }
+.example-definition{
+    font-size: var(--comfort-font-size);
+    margin-left: var(--side-margin);
+    margin-right: var(--side-margin);
+}
 
-    #example-2{
-        font-family: 'helvetica';
-        font-size: 66.5px;
-        line-height: 78px;
-        margin-bottom: 30px;
-        margin-top: 70px;
-        text-align: center;
-    }
-    
+#example-2{
+    font-family: var(--font-helvetica);
+    font-size: calc(1.7 * var(--medium-gap));
+}
+
+#example-3{
+    font-family: 'Libre Bodoni';
+    font-size: calc(1.8 * var(--medium-gap));
+}
+
+.example-container{
+    position: relative;
+}
+
+.annotations{
+    font-family: var(--font-helvetica);
+    font-size: calc(2 * var(--comfort-font-size));
+    position: absolute;
+    color: var(--color-acid);
+    mix-blend-mode: multiply;
+    text-align: center;
+}
+
+#ex1-circle-1,
+#ex1-circle-2,
+#ex1-circle-3,
+#ex1-circle-4,
+#ex1-circle-5,
+#ex1-backslash-1,
+#ex1-backslash-2,
+#ex1-backslash-3,
+#ex1-backslash-4,
+#ex1-backslash-5,
+#ex1-backslash-6,
+#ex1-backslash-7,
+#ex1-slash,
+#ex1-backslash-8 {
+    position: absolute;
+}
+
+#ex1-circle-1 {
+    top: 1.85rem;
+    left: 4.6rem;
+}
+
+#ex1-circle-2 {
+    top: -0.8rem;
+    left: 6.35rem;
+    font-size: calc(3 * var(--comfort-font-size));
+}
+
+#ex1-circle-3 {
+    top: 4rem;
+    left: 9.2rem;
+    font-size: calc(3 * var(--comfort-font-size));
+}
+
+#ex1-circle-4 {
+    top: 0.1rem;
+    left: 13.6rem;
+}
+
+#ex1-circle-5 {
+    top: 6.6rem;
+    left: 14.2rem;
+}
+
+#ex1-backslash-1{
+    top: 2.6rem;
+    left: 8.1rem;
+}
+
+#ex1-backslash-2{
+    top: 2.6rem;
+    left: 10.8rem;
+}
+
+#ex1-backslash-3{
+    top: 2.6rem;
+    left: 14.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+    /*
     #example-2-b{
         font-style: italic;
     }
