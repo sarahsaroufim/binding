@@ -1,1 +1,105 @@
 /* ........................"THE SHAPE OF WORDS" CSS........................ */
+
+body{
+    background-color: var(--color-acid);
+}
+
+#title{
+    background-color: white;
+    padding-top: calc(0.6 * var(--medium-gap));
+    padding-left: calc(1.05 * var(--medium-gap));
+    padding-bottom: calc(0.6 * var(--big-gap));
+    max-width: calc(2.2 * var(--big-gap));
+    margin-left: calc(0.68 * var(--medium-gap));
+    margin-top: var(--big-gap);
+    position: relative;
+}
+
+#author-name{
+    font-family: var(--font-ocrb);
+    font-size: var(--root-font-size);
+    margin-bottom: calc(2 * var(--small-gap));
+}
+
+h1{
+    font-family: var(--font-avenir);
+    font-size: calc(2 * var(--comfort-font-size));
+    font-weight: 900;
+    line-height: calc(0.9 * var(--medium-gap));
+}
+
+.letter-container{
+    position: relative;
+}
+
+.title-circles{
+    position: absolute;
+    font-family: var(--font-helvetica);
+}
+
+#circle-A{
+    right: 3.7rem;
+    bottom: 0.8rem;
+    font-size: calc(1.5 * var(--comfort-font-size));
+}
+
+#circle-P{
+    right: 1.8rem;
+    bottom: 1.1rem;
+    font-size: calc(1.5 * var(--comfort-font-size));
+}
+
+#circle-O-1{
+    right: 1.5rem;
+    bottom: var(--root-unit);
+    font-size: calc(2.7 * var(--comfort-font-size));
+}
+
+#circle-O-2{
+    right: 5.1rem;
+    bottom: var(--root-unit);
+    font-size: calc(2.7 * var(--comfort-font-size));
+}
+
+#circle-R{
+    right: 3.7rem;
+    bottom: 1.3rem;
+    font-size: calc(1.5 * var(--comfort-font-size));
+}
+
+#circle-D{
+    right: 1.4rem;
+    bottom: var(--root-unit);
+    font-size: calc(2.7 * var(--comfort-font-size));
+}
+
+.word{
+    white-space: nowrap;
+    position: relative;
+}
+
+#intro{
+    font-family: var(--font-karmina);
+    font-size: var(--comfort-font-size);
+    color: white;
+    background-color: black;
+    padding-top: calc(3 * var(--big-gap));
+    padding-right: var(--side-margin);
+    margin-top: calc(-1.1 * var(--big-gap));
+    overflow: hidden;
+}
+
+#big-circle-1 {
+    position: absolute;
+    font-size: calc(5 * var(--big-gap));
+    font-family: var(--font-helvetica);
+    color: black;
+    top: -28.5rem;
+    left: 7.5rem;
+    z-index: -1;
+}
+
+.intro-text{
+    margin-left: var(--side-margin);
+    font-style: italic;
+}

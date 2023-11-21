@@ -13,17 +13,12 @@ body{
     font-size: calc(2.5 * var(--comfort-font-size));
 }
 
-#title-equal-sign,
-#title-circle-1,
-#title-circle-2,
-#title-circle-3,
-#title-circle-4,
-#title-vertical-line {
+#title-annotations span{
     position: absolute;
     mix-blend-mode: multiply;
 } 
 
-#title-equal-sign {
+/* #title-equal-sign {
     top: -0.2rem;
     left: 1.6rem;
 }
@@ -52,7 +47,7 @@ body{
     font-size: calc(1.55 * var(--comfort-font-size));
     top: 3.5rem;
     left: 9.4rem;
-}
+} */
 
 h1{
     font-size: calc(1.8 * var(--comfort-font-size));
@@ -173,7 +168,7 @@ h2{
     display: inline-block;
     padding-left: calc(0.5 * var(--medium-gap));
     padding-right: calc(0.5 * var(--medium-gap));
-    padding-bottom: calc(0.3 * var(--medium-gap));
+    padding-bottom: calc(0.35 * var(--medium-gap));
     padding-top: calc(0.3 * var(--medium-gap));
     margin-bottom: calc(2.5 * var(--small-gap));
     border-radius: 50%;
@@ -250,24 +245,10 @@ h2{
 .annotations{
     font-family: var(--font-helvetica);
     font-size: calc(2 * var(--comfort-font-size));
-    position: absolute;
     color: var(--color-acid);
-    mix-blend-mode: multiply;
 }
 
-#ex1-circle-1,
-#ex1-circle-2,
-#ex1-circle-3,
-#ex1-circle-4,
-#ex1-circle-5,
-#ex1-backslash-1,
-#ex1-backslash-2,
-#ex1-backslash-3,
-#ex1-backslash-4,
-#ex1-backslash-5,
-#ex1-backslash-6,
-#ex1-slash,
-#ex1-backslash-7 {
+.annotations span {
     position: absolute;
     mix-blend-mode: multiply;
 }
@@ -366,15 +347,12 @@ h4{
     position: relative;
 }
 
-#square-1,
-#square-2,
-#square-3,
-#square-4 {
+#squares-container span{
     position: absolute;
     text-align: center;
 }
 
-#square-1{
+/* #square-1{
     font-size: 12pt;
 }
 
@@ -388,7 +366,7 @@ h4{
 
 #square-4{
     font-size: 36pt;
-}
+} */
 
 .square-size-number{
     color: black;
