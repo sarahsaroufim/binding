@@ -20,6 +20,7 @@ body{
 #title-circle-4,
 #title-vertical-line {
     position: absolute;
+    mix-blend-mode: multiply;
 } 
 
 #title-equal-sign {
@@ -228,6 +229,10 @@ h2{
     margin-right: var(--side-margin);
 }
 
+#example-1{
+    margin-top: -0.1rem;
+}
+
 #example-2{
     font-family: var(--font-helvetica);
     font-size: calc(1.7 * var(--medium-gap));
@@ -264,6 +269,7 @@ h2{
 #ex1-slash,
 #ex1-backslash-7 {
     position: absolute;
+
 }
 
 #ex1-circle-1 {
