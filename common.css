@@ -19,6 +19,7 @@
 /* Roboto */ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Libre Bodoni */ @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@0;1&display=swap');
 /* Karmina */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* P22 Freely */ @import url("https://use.typekit.net/rwu5qlp.css");
 
 /* Chomsky Blackletter */
 @font-face {
@@ -57,6 +58,8 @@
     --font-roboto-condensed: 'Roboto Condensed';
     --font-roboto: 'Roboto';
     --font-helvetica: 'Helvetica';
+    --font-karmina: 'Karmina';
+    --font-avenir: 'Avenir';
 }
 
 

@@ -173,8 +173,8 @@ h2{
     display: inline-block;
     padding-left: calc(0.5 * var(--medium-gap));
     padding-right: calc(0.5 * var(--medium-gap));
-    padding-bottom: calc(0.35 * var(--medium-gap));
-    padding-top: calc(0.2 * var(--medium-gap));
+    padding-bottom: calc(0.3 * var(--medium-gap));
+    padding-top: calc(0.3 * var(--medium-gap));
     margin-bottom: calc(2.5 * var(--small-gap));
     border-radius: 50%;
 }
