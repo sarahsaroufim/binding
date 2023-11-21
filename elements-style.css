@@ -269,7 +269,7 @@ h2{
 #ex1-slash,
 #ex1-backslash-7 {
     position: absolute;
-
+    mix-blend-mode: multiply;
 }
 
 #ex1-circle-1 {
