@@ -86,7 +86,6 @@ h1{
     padding-top: calc(3 * var(--big-gap));
     padding-right: var(--side-margin);
     margin-top: calc(-1.1 * var(--big-gap));
-    overflow: hidden;
 }
 
 #big-circle-1 {
@@ -102,4 +101,44 @@ h1{
 .intro-text{
     margin-left: var(--side-margin);
     font-style: italic;
+    margin-bottom: var(--medium-gap);
+    line-height: calc(5 * var(--small-gap));
 }
+
+#intro-example{
+    font-family: var(--font-helvetica);
+    font-size: calc(0.4 * var(--big-gap));
+    text-align: center;
+    word-spacing: var(--small-gap);
+    margin-top: calc(0.5 * var(--big-gap));
+    padding-bottom: calc(1.8 * var(--big-gap));
+    position: relative;
+}
+
+.slash-container{
+    position: relative;
+}
+
+.add-ons{
+    position: absolute;
+}
+
+#backslashes-1{
+    left: -16.1rem;
+    bottom: 4.15rem;
+}
+
+#backslashes-2{
+    left: -16.1rem;
+}
+
+#dash-1{
+    left: -12.105rem; 
+    bottom: calc(0.1 * var(--small-gap));
+}
+
+#dash-2{
+    left: -0.455rem;
+    bottom: calc(0.1 * var(--small-gap));
+}
+
