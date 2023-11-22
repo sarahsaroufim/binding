@@ -117,8 +117,15 @@ h1{
 
 #big-circle-3{
     color: var(--color-acid);
-    top: 199rem;
+    top: 208.5rem;
     right: -16rem;
+    z-index: 1;
+}
+
+#big-circle-4{
+    color: white;
+    top: 295rem;
+    right: 7rem;
     z-index: 1;
 }
 
@@ -199,17 +206,97 @@ h2{
     background-color: var(--color-acid);
 }
 
-#speed-example{
+.examples{
     background-color: black;
     color: white;
-    padding-top: calc(2.5 * var(--big-gap));
-    padding-bottom: calc(2.5 * var(--big-gap));
-    margin-top: -10rem;
+    padding-top: calc(3 * var(--big-gap));
+    padding-bottom: calc(3 * var(--big-gap));
     z-index: -1;
     position: relative;
+}
+
+#speed-examples{
+    margin-top: -10rem;
 }
 
 #slow-circle-grid{
     display: grid;
     text-align: center;
+}
+
+#text-block-2{
+    box-shadow: 2rem -2rem 0 0;
+}
+
+#logotype-examples{
+    margin-top: calc(0.5 * var(--medium-gap));
+    padding-top: calc(1.8 * var(--big-gap));
+    padding-bottom: calc(2 * var(--big-gap));
+    margin-bottom: -11rem;
+    text-align: center;
+    line-height: var(--big-gap);
+    position: relative;
+}
+
+#dano-logo{
+    position: relative;
+    font-family: "Comic Neue";
+    font-size: calc(2.5 * var(--comfort-font-size));
+    position: relative;
+}
+
+#dano{
+    border-style: solid;
+    display: inline;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 3rem;
+    position: relative;
+}
+
+#A-dash{
+    position: absolute;
+    right: 11.7rem;
+    top: 0.2rem;
+}
+
+#toponomastica{
+    position: relative;
+}
+
+.toponomastica-both{
+    font-family: var(--font-avenir);
+    font-weight: 900;
+    font-size: calc(2.8 * var(--comfort-font-size));
+    letter-spacing: -0.4rem;
+}
+
+#toponomastica-outline{
+    -webkit-text-stroke: 0.2rem white;
+    color: black;
+    position: relative;
+}
+
+#toponomastica-fill{
+    position: absolute;
+    color: black;
+    right: 1.68rem;
+}
+
+#jazz{
+    font-family: 'Nunito Sans';
+    font-size: calc(0.9 * var(--big-gap));
+    letter-spacing: -1.3rem;
+}
+
+
+
+
+
+#black-block{
+    background-color: black;
+    height: 30rem;
+    margin-top: -7rem;
+    margin-bottom: 3rem;
 }

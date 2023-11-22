@@ -1,7 +1,7 @@
 /* ........................"ITALICS" CSS........................ */
 
 h1{
-    font-family: 'franklin gothic atf';
+    font-family: var(--font-inter);
     font-weight: 900;
     font-style: italic;
     padding-left: calc(2 * var(--medium-gap));
@@ -21,8 +21,8 @@ h1{
 #precise::after { margin-bottom: var(--inset-bottom); }
 
 #precise{
-    --inset-top: -1.05rem;
-	--inset-bottom: -1.05rem;
+    --inset-top: -0.95rem;
+	--inset-bottom: -0.99rem;
 
     display: flow-root;
 	margin-left: var(--inset--left);

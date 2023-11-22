@@ -20,6 +20,9 @@
 /* Libre Bodoni */ @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@0;1&display=swap');
 /* Karmina */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* P22 Freely */ @import url("https://use.typekit.net/rwu5qlp.css");
+/* Inter */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Comic Neue */ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+/* Nunito Sans */ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
 
 /* Chomsky Blackletter */
 @font-face {
@@ -60,6 +63,7 @@
     --font-helvetica: 'Helvetica';
     --font-karmina: 'Karmina';
     --font-avenir: 'Avenir';
+    --font-inter: "Inter";
 }
 
 
