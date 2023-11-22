@@ -86,7 +86,7 @@ h1{
 }
 
 #intro{
-    font-family: 'karmina';
+    font-family: var(--font-karmina);
     font-size: var(--comfort-font-size);
     color: white;
     background-color: black;
@@ -174,7 +174,7 @@ h1{
 }
 
 .main-text{
-    font-family: 'karmina';
+    font-family: var(--font-karmina);
     background-color: white;
     font-size: var(--comfort-font-size);
     margin-left: var(--side-margin);

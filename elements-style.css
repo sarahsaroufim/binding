@@ -60,7 +60,7 @@ h1{
 }
 
 #of{
-    font-style: italic;
+    font-style: var(--font-lyon-slanted);
     font-size: calc(1.5 * var(--comfort-font-size));
 }
 
@@ -80,7 +80,7 @@ h1{
 }
 
 blockquote{
-    font-style: italic;
+    font-family: var(--font-lyon-slanted);
     font-size: var(--comfort-font-size);
     margin-left: var(--side-margin);
     margin-right: var(--side-margin);
@@ -107,7 +107,7 @@ blockquote{
 }
 
 .chapter-titles {
-    font-style: italic;
+    font-style: var(--font-lyon-slanted);
     font-weight: 600;
     font-size: calc(1.15 * var(--root-unit));
     text-decoration: underline;
@@ -139,13 +139,13 @@ blockquote{
 }
 
 .small-chapters{
-    font-style: italic;
+    font-style: var(--font-lyon-slanted);
     font-size: calc(1.1 * var(--comfort-font-size));
     margin-left: var(--small-gap);
 }
 
 h2{
-    font-style: italic;
+    font-style: var(--font-lyon-slanted);
     font-weight: 900;
     font-size: calc(1.5 * var(--comfort-font-size));
     text-align: center;
