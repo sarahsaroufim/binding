@@ -252,7 +252,9 @@ h2{
 
 #dano-logo{
     position: relative;
-    font-family: "Comic Neue";
+    font-family: 'Comic Neue', cursive;
+    font-style: italic;
+    font-weight: 700;
     font-size: calc(2.5 * var(--comfort-font-size));
     position: relative;
 }
