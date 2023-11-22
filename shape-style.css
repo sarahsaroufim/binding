@@ -1,7 +1,12 @@
 /* ........................"THE SHAPE OF WORDS" CSS........................ */
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color: var(--color-acid);
+    overflow-x: hidden;
 }
 
 #title{
@@ -13,6 +18,8 @@ body{
     margin-left: calc(0.68 * var(--medium-gap));
     margin-top: var(--big-gap);
     position: relative;
+    z-index: 1;
+    align-items: center;
 }
 
 #author-name{
@@ -86,16 +93,33 @@ h1{
     padding-top: calc(3 * var(--big-gap));
     padding-right: var(--side-margin);
     margin-top: calc(-1.1 * var(--big-gap));
+    position: relative;
 }
 
-#big-circle-1 {
+.big-circles{
     position: absolute;
-    font-size: calc(5 * var(--big-gap));
     font-family: var(--font-helvetica);
+    font-size: calc(6 * var(--big-gap));
     color: black;
-    top: -28.5rem;
-    left: 7.5rem;
     z-index: -1;
+}
+
+#big-circle-1{
+    font-size: calc(5 * var(--big-gap));
+    top: -32rem;
+    left: 9.5rem;
+}
+
+#big-circle-2{
+    bottom: -31.7rem;
+    right: 5rem;
+}
+
+#big-circle-3{
+    color: var(--color-acid);
+    top: 199rem;
+    right: -16rem;
+    z-index: 1;
 }
 
 .intro-text{
@@ -142,3 +166,50 @@ h1{
     bottom: calc(0.1 * var(--small-gap));
 }
 
+.main-text{
+    font-family: var(--font-karmina);
+    background-color: white;
+    font-size: var(--comfort-font-size);
+    margin-left: var(--side-margin);
+    margin-right: var(--side-margin);
+    margin-top: calc(2 * var(--medium-gap));
+    padding-bottom: calc(2.5 * var(--medium-gap));
+    z-index: 1;
+    position: relative;
+}
+
+.text-separation{
+    margin-bottom: var(--medium-gap);
+}
+
+h2{
+    font-size: calc(1.25 * var(--comfort-font-size));
+    background-color: var(--color-acid);
+    font-style: italic;
+    padding-bottom: var(--medium-gap);
+    max-width: calc(1.7 * var(--big-gap));
+    margin-bottom: calc(2 * var(--medium-gap));
+}
+
+.inline-highlight{
+    font-size: calc(0.9 * var(--comfort-font-size));
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+    background-color: var(--color-acid);
+}
+
+#speed-example{
+    background-color: black;
+    color: white;
+    padding-top: calc(2.5 * var(--big-gap));
+    padding-bottom: calc(2.5 * var(--big-gap));
+    margin-top: -10rem;
+    z-index: -1;
+    position: relative;
+}
+
+#slow-circle-grid{
+    display: grid;
+    text-align: center;
+}
