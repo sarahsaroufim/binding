@@ -18,7 +18,6 @@
 /* Roboto Condensed */ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Roboto */ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Libre Bodoni */ @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@0;1&display=swap');
-/* Karmina */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* Hurricane */ @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 /* Inter */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* Comic Neue */ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
@@ -30,8 +29,6 @@
     src: url('fonts/Chomsky.woff2') format('woff2'),
          url('fonts/Chomsky.woff') format('woff'),
 }
-
-
 
 /*
 	This font software is the property of Commercial Type.
@@ -77,14 +74,47 @@
     font-style: normal;
     }
 
+@font-face {
+    font-family: 'Lyon Text Web';
+    src: url('fonts/LyonArabicText-Regular-Web.woff2') format('woff2'),
+         url('fonts/LyonArabicText-Regular-Web.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+@font-face {
+    font-family: 'Lyon Text Web';
+    src: url('font/LyonArabicText-Semibold-Web.woff2') format('woff2'),
+         url('font/LyonArabicText-Semibold-Web.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    }
+    
+@font-face {
+    font-family: 'Lyon Text Web';
+    src: url('font/LyonArabicText-Bold-Web.woff2') format('woff2'),
+         url('font/LyonArabicText-Bold-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
+    
+@font-face {
+    font-family: 'Lyon Text Web';
+    src: url('font/LyonArabicText-Black-Web.woff2') format('woff2'),
+         url('font/LyonArabicText-Black-Web.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    }
+
     
 /* ........................ROOTS........................ */
 
 
 :root{
-    font-family: var(--font-lyon-slanted);
+    font-family: var(--font-lyon-text);
     font-weight: 400;
-    --font-lyon-text: ;
+    
+    --font-lyon-text: 'Lyon Text Web';
     --font-lyon-slanted: 'Lyon Slanted Web';
     --font-garamond: 'EB Garamond';
     --font-ocrb: 'ocr-b-std';

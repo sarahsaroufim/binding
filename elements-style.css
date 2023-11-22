@@ -1,10 +1,6 @@
 /* ........................"THE ELEMENTS OF TYPOGRAPHIC STYLE" CSS........................ */
 
 
-body{
-    /* font-family: var(--font-lyon-text); */
-}
-
 letter-container-title{
     position: relative;
 }
@@ -167,7 +163,7 @@ h2{
     padding-left: calc(0.5 * var(--medium-gap));
     padding-right: calc(0.5 * var(--medium-gap));
     padding-bottom: calc(0.35 * var(--medium-gap));
-    padding-top: calc(0.3 * var(--medium-gap));
+    padding-top: calc(0.35 * var(--medium-gap));
     margin-bottom: calc(2.5 * var(--small-gap));
     border-radius: 50%;
 }
