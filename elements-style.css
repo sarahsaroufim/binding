@@ -2,7 +2,7 @@
 
 
 body{
-    font-family: var(--font-garamond);
+    font-family: var(--font-lyon-text);
 }
 
 letter-container-title{
@@ -67,7 +67,7 @@ h1{
 #typographic{
     text-decoration: underline;
     text-decoration-color: var(--color-acid);
-    text-decoration-thickness: calc(0.6 * var(--small-gap));
+    text-decoration-thickness: var(--small-gap);
     text-underline-offset: var(--small-gap);
 }
 
