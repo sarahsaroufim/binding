@@ -31,31 +31,61 @@
          url('fonts/Chomsky.woff') format('woff'),
 }
 
-/* Lyon Arabic Text - Regular */
+
+
+/*
+	This font software is the property of Commercial Type.
+
+	You may not modify the font software, use it on another website, or install it on a computer.
+
+	License information is available at http://commercialtype.com/eula
+	For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+	Copyright (C) 2016 Schwartzco Inc.
+	2211-IPQNGQ
+*/
+
 @font-face {
-    font-family: 'Lyon Arabic Text Web';
-    src: url('LyonArabicText-Regular-Web.woff2') format('woff2'),
-    url('LyonArabicText-Regular-Web.woff') format('woff');
+    font-family: 'Lyon Slanted Web';
+    src: url('fonts/LyonArabicSlantedText-RegularNo2-Web.woff2') format('woff2'),
+         url('fonts/LyonArabicSlantedText-RegularNo2-Web.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     }
 
-/* Lyon Arabic Slanted Text - Regular */
 @font-face {
-    font-family: 'Lyon Arabic Slanted Text Web';
-    src: url('LyonArabicSlantedText-RegularNo2-Web.woff2') format('woff2'),
-    url('LyonArabicSlantedText-RegularNo2-Web.woff') format('woff');
-    font-weight: 400;
+    font-family: 'Lyon Slanted Web';
+    src: url('fonts/LyonArabicSlantedText-Semibold-Web.woff2') format('woff2'),
+         url('fonts/LyonArabicSlantedText-Semibold-Web.woff') format('woff');
+    font-weight: 600;
     font-style: normal;
     }
 
+@font-face {
+    font-family: 'Lyon Slanted Web';
+    src: url('fonts/LyonArabicSlantedText-Bold-Web.woff2') format('woff2'),
+         url('fonts/LyonArabicSlantedText-Bold-Web.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    }
 
-/* ........................ROOT FONTS........................ */
+@font-face {
+    font-family: 'Lyon Slanted Web';
+    src: url('fonts/LyonArabicSlantedText-Black-Web.woff2') format('woff2'),
+         url('fonts/LyonArabicSlantedText-Black-Web.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    }
+
+    
+/* ........................ROOTS........................ */
 
 
 :root{
-    --font-lyon-text: 'Lyon Arabic Text';
-    --font-lyon-slanted: 'Lyon Arabic Slanted Text';
+    font-family: var(--font-lyon-slanted);
+    font-weight: 400;
+    --font-lyon-text: ;
+    --font-lyon-slanted: 'Lyon Slanted Web';
     --font-garamond: 'EB Garamond';
     --font-ocrb: 'ocr-b-std';
     --font-roboto-condensed: 'Roboto Condensed';
@@ -64,35 +94,13 @@
     --font-karmina: 'karmina';
     --font-avenir: 'Avenir';
     --font-inter: "Inter";
-}
-
-
-/* ........................ROOT FONT SIZES........................ */
-
-
-:root{
     --root-unit: 1rem;
-
     --comfort-font-size: calc(1.29 * var(--root-unit));
     --h1-font-size: calc(2 * var(--root-unit));
-}
-
-
-/* ........................ROOT SPACING........................ */
-
-
-:root{
     --side-margin: calc(1.69 * var(--root-unit));
     --small-gap: calc(0.25 * var(--comfort-font-size));
     --medium-gap: calc(2 * var(--comfort-font-size));
     --big-gap: calc(3.5 * var(--medium-gap));
-}
-
-
-/* ........................ROOT COLOR........................ */
-
-
-:root{
     --color-acid: rgb(66, 255, 119);
 }
 
