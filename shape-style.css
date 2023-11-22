@@ -221,7 +221,7 @@ h2{
 }
 
 #fast{
-    font-family: "Hurricane";
+    font-family: 'Hurricane', cursive;
     font-size: calc(0.7 * var(--big-gap));
     margin-left: -1rem;
 }
