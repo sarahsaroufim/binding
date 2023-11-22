@@ -117,7 +117,7 @@ h1{
 
 #big-circle-3{
     color: var(--color-acid);
-    top: 208.5rem;
+    top: 208rem;
     right: -16rem;
     z-index: 1;
 }
@@ -209,19 +209,31 @@ h2{
 .examples{
     background-color: black;
     color: white;
-    padding-top: calc(3 * var(--big-gap));
-    padding-bottom: calc(3 * var(--big-gap));
+    padding-top: calc(2.3 * var(--big-gap));
+    padding-bottom: calc(2.3 * var(--big-gap));
     z-index: -1;
     position: relative;
 }
 
 #speed-examples{
     margin-top: -10rem;
+    text-align: center;
+}
+
+#fast{
+    font-family: "Hurricane";
+    font-size: calc(0.7 * var(--big-gap));
+    margin-left: -1rem;
 }
 
 #slow-circle-grid{
+    color: white;
     display: grid;
-    text-align: center;
+    margin-top: calc(1.8 * var(--medium-gap));
+}
+
+.color-dot{
+    color: black;
 }
 
 #text-block-2{
@@ -230,8 +242,8 @@ h2{
 
 #logotype-examples{
     margin-top: calc(0.5 * var(--medium-gap));
-    padding-top: calc(1.8 * var(--big-gap));
-    padding-bottom: calc(2 * var(--big-gap));
+    padding-top: calc(1.3 * var(--big-gap));
+    padding-bottom: calc(1.8 * var(--big-gap));
     margin-bottom: -11rem;
     text-align: center;
     line-height: var(--big-gap);
@@ -290,13 +302,9 @@ h2{
     letter-spacing: -1.3rem;
 }
 
-
-
-
-
 #black-block{
     background-color: black;
-    height: 30rem;
+    height: 20rem;
     margin-top: -7rem;
     margin-bottom: 3rem;
 }
