@@ -113,6 +113,8 @@
 :root{
     font-family: var(--font-lyon-text);
     font-weight: 400;
+    -webkit-hyphens: manual;
+    hyphens: manual;
     
     --font-lyon-text: 'Lyon Text Web';
     --font-lyon-slanted: 'Lyon Slanted Web';
@@ -134,10 +136,6 @@
     --color-acid: rgb(66, 255, 119);
 }
 
-
-/* ........................HOME BUTTON........................ */
-
-
 .home-button{
     font-family: 'bd-console-variable';
     font-variation-settings: 'GAME' 500;
@@ -155,3 +153,11 @@
     border-color: var(--color-acid);
     border-width: calc(0.6 * var(--small-gap));
 }
+
+/* .intro-text{
+
+}
+
+.main-text{
+
+} */

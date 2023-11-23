@@ -86,7 +86,6 @@ h1{
 }
 
 #intro{
-    font-family: var(--font-karmina);
     font-size: var(--comfort-font-size);
     color: white;
     background-color: black;
@@ -115,25 +114,11 @@ h1{
     right: 5rem;
 }
 
-#big-circle-3{
-    color: var(--color-acid);
-    top: 208rem;
-    right: -16rem;
-    z-index: 1;
-}
-
-#big-circle-4{
-    color: white;
-    top: 295rem;
-    right: 7rem;
-    z-index: 1;
-}
-
 .intro-text{
+    font-family: var(--font-lyon-slanted);
     margin-left: var(--side-margin);
-    font-style: italic;
     margin-bottom: var(--medium-gap);
-    line-height: calc(5 * var(--small-gap));
+    line-height: 1.7rem;
 }
 
 #intro-example{
@@ -174,13 +159,15 @@ h1{
 }
 
 .main-text{
-    font-family: var(--font-karmina);
     background-color: white;
     font-size: var(--comfort-font-size);
     margin-left: var(--side-margin);
     margin-right: var(--side-margin);
     margin-top: calc(2 * var(--medium-gap));
     padding-bottom: calc(2.5 * var(--medium-gap));
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    line-height: 1.7rem;
     z-index: 1;
     position: relative;
 }
@@ -190,17 +177,21 @@ h1{
 }
 
 h2{
-    font-size: calc(1.25 * var(--comfort-font-size));
+    font-family: var(--font-lyon-slanted);
+    font-size: calc(1.5 * var(--comfort-font-size));
     background-color: var(--color-acid);
-    font-style: italic;
     padding-bottom: var(--medium-gap);
-    max-width: calc(1.7 * var(--big-gap));
     margin-bottom: calc(2 * var(--medium-gap));
+    margin-left: -0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    margin-right: -1rem;
 }
 
 .inline-highlight{
     font-size: calc(0.9 * var(--comfort-font-size));
-    font-weight: 800;
+    font-family: var(--font-lyon-text);
+    font-weight: 600;
     font-style: normal;
     color: black;
     background-color: var(--color-acid);
@@ -215,7 +206,7 @@ h2{
     position: relative;
 }
 
-#speed-examples{
+/* #speed-examples{
     margin-top: -10rem;
     text-align: center;
 }
@@ -234,7 +225,7 @@ h2{
 
 .color-dot{
     color: black;
-}
+} */
 
 #text-block-2{
     box-shadow: 2rem -2rem 0 0;

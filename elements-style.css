@@ -136,7 +136,7 @@ blockquote{
 
 .small-chapters{
     font-family: var(--font-lyon-slanted);
-    font-size: calc(1.1 * var(--comfort-font-size));
+    font-size: var(--comfort-font-size);
     margin-left: var(--small-gap);
 }
 
@@ -162,8 +162,8 @@ h2{
     display: inline-block;
     padding-left: calc(0.5 * var(--medium-gap));
     padding-right: calc(0.5 * var(--medium-gap));
-    padding-bottom: calc(0.35 * var(--medium-gap));
-    padding-top: calc(0.35 * var(--medium-gap));
+    padding-bottom: calc(0.3 * var(--medium-gap));
+    padding-top: calc(0.3 * var(--medium-gap));
     margin-bottom: calc(2.5 * var(--small-gap));
     border-radius: 50%;
 }
@@ -173,8 +173,6 @@ h2{
     margin-left: var(--side-margin);
     padding-right: var(--side-margin);
     margin-bottom: calc(4 * var(--small-gap));
-    -webkit-hyphens: manual;
-    hyphens: manual;
 }
 
 #typography-quote{
@@ -186,7 +184,6 @@ h2{
     font-size: calc(2 * var(--medium-gap));
     line-height: calc(2 * var(--small-gap));
     margin-bottom: var(--medium-gap);
-    margin-top: var(--big-gap);
     line-height: calc(2.5 * var(--medium-gap));
     text-align: center;
 }
@@ -218,11 +215,6 @@ h2{
     margin-right: var(--side-margin);
 }
 
-#example-1{
-    font-family: var(--font-garamond);
-    margin-top: -0.1rem;
-}
-
 #example-2{
     font-family: var(--font-helvetica);
     font-size: calc(1.7 * var(--medium-gap));
@@ -231,6 +223,7 @@ h2{
 #example-3{
     font-family: 'Libre Bodoni';
     font-size: calc(1.8 * var(--medium-gap));
+    margin-top: var(--big-gap);
 }
 
 .example-container{
