@@ -19,43 +19,43 @@ letter-container-title{
 
 #title-equal-sign {
     font-size: calc(2 * var(--comfort-font-size));
-    left: -5.1rem;
-    top: 0.2rem;
+    left: -4.55rem;
 }
 
 #title-circle-1 {
-    left: -3.4rem;
-    bottom: 0.5rem;
+    left: -3.1rem;
+    bottom: 0.4rem;
 }
 
 #title-circle-2 {
-    left: 8.4rem;
-    bottom: 0.5rem;
+    left: 9.5rem;
+    bottom: 0.2rem;
 }
 
 #title-circle-3 {
-    left: 7.15rem;
-    bottom: 0.5rem;
+    left: 7.35rem;
+    bottom: 0.4rem;
 }
 
 #title-circle-4 {
-    left: 4.45rem;
-    top: -0.45rem;
+    left: 5rem;
+    bottom: -0.25rem;
 }
 
 h1{
     font-size: calc(1.8 * var(--comfort-font-size));
     font-weight: 700;
     margin-left: var(--side-margin);
-    text-indent: var(--medium-gap);
+    text-indent: calc(0.9 * var(--medium-gap));
     word-spacing: var(--small-gap);
 }
 
 #the{
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #of{
+    font-weight: 500;
     font-family: var(--font-lyon-slanted);
     font-size: calc(1.5 * var(--comfort-font-size));
 }
