@@ -13,12 +13,10 @@
 /* Karmina */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* IBM Plex Sans Arabic */ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap');
 /* OCR B Std Regular */ @import url("https://use.typekit.net/rwu5qlp.css");
-/* ATF Franklin Gothic */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* EB Garamond */ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 /* Roboto Condensed */ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Roboto */ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Libre Bodoni */ @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@0;1&display=swap');
-/* Hurricane */ @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 /* Inter */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* Comic Neue */ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 /* Nunito Sans */ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
@@ -148,10 +146,19 @@
     text-align: center;
 }
 
-.home-button:hover{
+/* .home-button:hover{
     border-style: solid;
     border-color: var(--color-acid);
     border-width: calc(0.6 * var(--small-gap));
+} */
+
+@media screen and (min-width: 481px) {
+
+.home-button{
+    font-size: 13.2rem;
+    height: 12.6rem;
+    width: 15rem;
+}
 }
 
 /* .intro-text{

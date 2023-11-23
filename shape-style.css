@@ -12,14 +12,13 @@ body{
 #title{
     background-color: white;
     padding-top: calc(0.6 * var(--medium-gap));
-    padding-left: calc(1.05 * var(--medium-gap));
     padding-bottom: calc(0.6 * var(--big-gap));
-    max-width: calc(2.2 * var(--big-gap));
     margin-left: calc(0.68 * var(--medium-gap));
+    margin-right: calc(0.68 * var(--medium-gap));
     margin-top: var(--big-gap);
+    text-align: center;
     position: relative;
     z-index: 1;
-    align-items: center;
 }
 
 #author-name{
@@ -33,6 +32,8 @@ h1{
     font-size: calc(2 * var(--comfort-font-size));
     font-weight: 900;
     line-height: calc(0.9 * var(--medium-gap));
+    padding-left: calc(0.5 * var(--medium-gap));
+    padding-right: calc(0.5 * var(--medium-gap));
 }
 
 .letter-container{
