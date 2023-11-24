@@ -31,20 +31,20 @@
     font-family: 'condor-extended';
     font-weight: 700;
     font-style: italic;
-    font-size: 28.5vw;
+    font-size: 27vw;
     color: white;
     background-color: black;
-    padding-top: calc(0.4 * var(--root-unit));
+    padding-top: 1rem;
 }
 
 #E{
     font-family: 'madrone-std';
     font-weight: 400;
     font-style: normal;
-    font-size: 27vw;
+    font-size: 24.5vw;
     padding-left: calc(1.35 * var(--medium-gap));
     background-color: var(--color-acid);
-    padding-top: calc(0.4 * var(--root-unit));
+    padding-top: calc(0.6 * var(--root-unit));
     overflow: hidden;
 }
 
@@ -284,7 +284,7 @@ footer{
     
 .reading-titles{
     font-size: calc(2 * var(--h1-font-size));
-    margin-top: calc(3.5 * var(--medium-gap));
+    margin-top: calc(3 * var(--medium-gap));
 }
 
 .author-names{
