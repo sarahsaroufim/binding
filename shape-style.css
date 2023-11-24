@@ -151,8 +151,6 @@ h1{
     background-color: white;
     margin-top: calc(2 * var(--medium-gap));
     padding-bottom: calc(2.5 * var(--medium-gap));
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
     z-index: 1;
     position: relative;
 }
@@ -167,10 +165,10 @@ h2{
     background-color: var(--color-acid);
     padding-bottom: var(--medium-gap);
     margin-bottom: calc(2 * var(--medium-gap));
-    margin-left: -0.5rem;
+    margin-left: -2vw;
     padding-left: 0.5rem;
     padding-top: 0.2rem;
-    margin-right: -1rem;
+    margin-right: -2vw;
 }
 
 .inline-highlight{
@@ -262,61 +260,110 @@ h2{
 
 @media screen and (min-width: 481px) {
 
-/* #title{
-    padding-bottom: calc(0.8 * var(--big-gap));
-    padding-top: calc(0.9 * var(--medium-gap));
-}
-    
 #author-name{
     font-size: calc(0.9 * var(--comfort-font-size));
-    margin-bottom: calc(2.5 * var(--small-gap));
+    padding-top: calc(6 * var(--small-gap));
+    padding-bottom: calc(3 * var(--small-gap));
 }
     
 h1{
-    font-size: calc(2.5 * var(--comfort-font-size));
+    font-size: calc(2.8 * var(--comfort-font-size));
     line-height: calc(1.2 * var(--medium-gap));
-} */
-
-/* #big-circle-1{
-    font-size: calc(7 * var(--big-gap));
-    top: -46rem;
-    left: 10rem;
 }
 
 #circle-A{
-    right: 4.5rem;
-    bottom: 0.9rem;
+    right: 5rem;
+    bottom: 1.2rem;
     font-size: calc(2 * var(--comfort-font-size));
 }
     
 #circle-P{
-    right: 1.8rem;
-    bottom: 1.1rem;
+    right: 2.6rem;
+    bottom: 1.8rem;
     font-size: calc(2 * var(--comfort-font-size));
 }
     
 #circle-O-1{
-    right: 1.5rem;
-    bottom: var(--root-unit);
-    font-size: calc(3.2 * var(--comfort-font-size));
+    right: 2.3rem;
+    bottom: 1.3rem;
+    font-size: calc(3.5 * var(--comfort-font-size));
 }
     
 #circle-O-2{
-    right: 5.1rem;
-    bottom: var(--root-unit);
-    font-size: calc(3.2 * var(--comfort-font-size));
+    right: 7.3rem;
+    bottom: 1.3rem;
+    font-size: calc(3.5 * var(--comfort-font-size));
 }
     
 #circle-R{
-    right: 3.7rem;
-    bottom: 1.3rem;
+    right: 5.2rem;
+    bottom: 1.6rem;
     font-size: calc(2 * var(--comfort-font-size));
 }
     
 #circle-D{
-    right: 1.4rem;
-    bottom: var(--root-unit);
-    font-size: calc(3.2 * var(--comfort-font-size));
-} */
+    right: 2rem;
+    bottom: 1.3rem;
+    font-size: calc(3.5 * var(--comfort-font-size));
+}
 
 }
+
+@media screen and (min-width: 684px) {
+
+#title{
+    max-width: 39.3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#author-name{
+    font-size: calc(1.3 * var(--comfort-font-size));
+    padding-top: calc(8 * var(--small-gap));
+    padding-bottom: calc(4.5 * var(--small-gap));
+}
+        
+h1{
+    font-size: calc(4.2 * var(--comfort-font-size));
+    line-height: calc(1.8 * var(--medium-gap));
+}
+
+#circle-A{
+    right: 7.7rem;
+    bottom: 1.7rem;
+    font-size: calc(3 * var(--comfort-font-size));
+}
+    
+#circle-P{
+    right: 4rem;
+    bottom: 2.5rem;
+    font-size: calc(3 * var(--comfort-font-size));
+}
+    
+#circle-O-1{
+    right: 3.3rem;
+    bottom: 1.8rem;
+    font-size: calc(5.5 * var(--comfort-font-size));
+}
+    
+#circle-O-2{
+    right: 10.8rem;
+    bottom: 1.8rem;
+    font-size: calc(5.5 * var(--comfort-font-size));
+}
+    
+#circle-R{
+    right: 7.8rem;
+    bottom: 2.4rem;
+    font-size: calc(3 * var(--comfort-font-size));
+}
+    
+#circle-D{
+    right: 3.1rem;
+    bottom: 1.8rem;
+    font-size: calc(5.5 * var(--comfort-font-size));
+}
+  
+}
+
