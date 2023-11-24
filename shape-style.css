@@ -11,12 +11,11 @@ body{
 
 #title{
     background-color: white;
-    padding-top: calc(0.6 * var(--medium-gap));
-    padding-bottom: calc(0.6 * var(--big-gap));
     margin-left: calc(0.68 * var(--medium-gap));
     margin-right: calc(0.68 * var(--medium-gap));
     margin-top: var(--big-gap);
     text-align: center;
+    height: 56vw;
     position: relative;
     z-index: 1;
 }
@@ -24,7 +23,8 @@ body{
 #author-name{
     font-family: var(--font-ocrb);
     font-size: var(--root-font-size);
-    margin-bottom: calc(2 * var(--small-gap));
+    padding-top: calc(4 * var(--small-gap));
+    padding-bottom: calc(2 * var(--small-gap));
 }
 
 h1{
@@ -32,8 +32,6 @@ h1{
     font-size: calc(2 * var(--comfort-font-size));
     font-weight: 900;
     line-height: calc(0.9 * var(--medium-gap));
-    padding-left: calc(0.5 * var(--medium-gap));
-    padding-right: calc(0.5 * var(--medium-gap));
 }
 
 .letter-container{
@@ -87,11 +85,9 @@ h1{
 }
 
 #intro{
-    font-size: var(--comfort-font-size);
     color: white;
     background-color: black;
     padding-top: calc(3 * var(--big-gap));
-    padding-right: var(--side-margin);
     margin-top: calc(-1.1 * var(--big-gap));
     position: relative;
 }
@@ -105,21 +101,13 @@ h1{
 }
 
 #big-circle-1{
-    font-size: calc(5 * var(--big-gap));
-    top: -32rem;
-    left: 9.5rem;
+    top: -36rem;
+    left: 7.2rem;
 }
 
 #big-circle-2{
     bottom: -31.7rem;
     right: 5rem;
-}
-
-.intro-text{
-    font-family: var(--font-lyon-slanted);
-    margin-left: var(--side-margin);
-    margin-bottom: var(--medium-gap);
-    line-height: 1.7rem;
 }
 
 #intro-example{
@@ -161,14 +149,10 @@ h1{
 
 .main-text{
     background-color: white;
-    font-size: var(--comfort-font-size);
-    margin-left: var(--side-margin);
-    margin-right: var(--side-margin);
     margin-top: calc(2 * var(--medium-gap));
     padding-bottom: calc(2.5 * var(--medium-gap));
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    line-height: 1.7rem;
     z-index: 1;
     position: relative;
 }
@@ -198,48 +182,21 @@ h2{
     background-color: var(--color-acid);
 }
 
-.examples{
-    background-color: black;
-    color: white;
-    padding-top: calc(2.3 * var(--big-gap));
-    padding-bottom: calc(2.3 * var(--big-gap));
-    z-index: -1;
-    position: relative;
-}
-
-/* #speed-examples{
-    margin-top: -10rem;
-    text-align: center;
-}
-
-#fast{
-    font-family: 'Hurricane', cursive;
-    font-size: calc(0.7 * var(--big-gap));
-    margin-left: -1rem;
-}
-
-#slow-circle-grid{
-    color: white;
-    display: grid;
-    margin-top: calc(1.8 * var(--medium-gap));
-}
-
-.color-dot{
-    color: black;
-} */
-
 #text-block-2{
     box-shadow: 2rem -2rem 0 0;
 }
 
 #logotype-examples{
+    background-color: black;
+    color: white;
+    padding-top: calc(1.5 * var(--big-gap));
+    padding-bottom: calc(2.2 * var(--big-gap));
+    z-index: -1;
+    position: relative;
     margin-top: calc(0.5 * var(--medium-gap));
-    padding-top: calc(1.3 * var(--big-gap));
-    padding-bottom: calc(1.8 * var(--big-gap));
     margin-bottom: -11rem;
     text-align: center;
     line-height: var(--big-gap);
-    position: relative;
 }
 
 #dano-logo{
@@ -301,4 +258,65 @@ h2{
     height: 20rem;
     margin-top: -7rem;
     margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 481px) {
+
+/* #title{
+    padding-bottom: calc(0.8 * var(--big-gap));
+    padding-top: calc(0.9 * var(--medium-gap));
+}
+    
+#author-name{
+    font-size: calc(0.9 * var(--comfort-font-size));
+    margin-bottom: calc(2.5 * var(--small-gap));
+}
+    
+h1{
+    font-size: calc(2.5 * var(--comfort-font-size));
+    line-height: calc(1.2 * var(--medium-gap));
+} */
+
+/* #big-circle-1{
+    font-size: calc(7 * var(--big-gap));
+    top: -46rem;
+    left: 10rem;
+}
+
+#circle-A{
+    right: 4.5rem;
+    bottom: 0.9rem;
+    font-size: calc(2 * var(--comfort-font-size));
+}
+    
+#circle-P{
+    right: 1.8rem;
+    bottom: 1.1rem;
+    font-size: calc(2 * var(--comfort-font-size));
+}
+    
+#circle-O-1{
+    right: 1.5rem;
+    bottom: var(--root-unit);
+    font-size: calc(3.2 * var(--comfort-font-size));
+}
+    
+#circle-O-2{
+    right: 5.1rem;
+    bottom: var(--root-unit);
+    font-size: calc(3.2 * var(--comfort-font-size));
+}
+    
+#circle-R{
+    right: 3.7rem;
+    bottom: 1.3rem;
+    font-size: calc(2 * var(--comfort-font-size));
+}
+    
+#circle-D{
+    right: 1.4rem;
+    bottom: var(--root-unit);
+    font-size: calc(3.2 * var(--comfort-font-size));
+} */
+
 }

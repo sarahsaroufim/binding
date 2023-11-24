@@ -75,14 +75,6 @@ h1{
     margin-bottom: var(--big-gap);
 }
 
-blockquote{
-    font-family: var(--font-lyon-slanted);
-    font-size: var(--comfort-font-size);
-    margin-left: var(--side-margin);
-    margin-right: var(--side-margin);
-    margin-bottom: calc(1.5 * var(--medium-gap));
-}
-
 #contents-title{
     font-family: var(--font-ocrb);
     font-size: var(--comfort-font-size);
@@ -166,13 +158,6 @@ h2{
     padding-top: calc(0.3 * var(--medium-gap));
     margin-bottom: calc(2.5 * var(--small-gap));
     border-radius: 50%;
-}
-
-.main-text{
-    font-size: var(--comfort-font-size);
-    margin-left: var(--side-margin);
-    padding-right: var(--side-margin);
-    margin-bottom: calc(4 * var(--small-gap));
 }
 
 #typography-quote{
