@@ -21,31 +21,59 @@
     padding-top: var(--root-unit);
 }
 
+#T:hover{
+    font-family: "turnip";
+    font-weight: 700;
+    font-size: 40vw;
+    padding-bottom: 0.5rem;
+}
+
 #Y{
     font-family: 'blenny';
     font-size: 38.5vw;
     background-color: white;
 }
 
+#Y:hover{
+    font-family: "DynaPuff";
+    color: var(--color-acid);
+}
+
 #P{
-    font-family: 'condor-extended';
+    font-family: "Bagel Fat One";
     font-weight: 700;
-    font-style: italic;
-    font-size: 27vw;
+    font-size: 40vw;
     color: var(--color-acid);
     background-color: black;
-    padding-top: 1rem;
+    padding-bottom: 1.4rem;
+}
+
+#P:hover{
+    font-family: "Press Start 2P";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32vw;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+    color: white;
 }
 
 #E{
-    font-family: 'madrone-std';
+    font-family: 'Gravitas One';
     font-weight: 400;
     font-style: normal;
-    font-size: 24.5vw;
-    padding-left: calc(1.35 * var(--medium-gap));
+    font-size: 38vw;
     background-color: var(--color-acid);
-    padding-top: calc(0.6 * var(--root-unit));
+    padding-left: 3.5rem;
+    padding-top: 0.7rem;
     overflow: hidden;
+}
+
+#E:hover{
+    font-family: "Modak";
+    font-size: 45vw;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
 }
 
 #L{
@@ -57,21 +85,39 @@
     background-color: white;
 }
 
+#L:hover{
+    font-family: "Comic Neue";
+    font-weight: 500;
+    font-size: 39vw;
+    font-style: italic;
+    color: black;
+}
+
 #a{
     font-family: 'karmina';
     font-weight: 700;
     font-size: 47vw;
     color: var(--color-acid);
     background-color: black;
-    padding-bottom: calc(1.1 * var(--comfort-font-size));
+    padding-bottom: calc(1.5 * var(--comfort-font-size));
+}
+
+#a:hover{
+    font-family: "rooney-web";
+    font-weight: 800;
+    font-style: italic;
+    font-size: 40vw;
 }
 
 #t{
-    font-family: 'vortice-concept';
-    font-size: 34vw;
+    font-family: "gabriella";
+    font-size: 35vw;
     background-color: var(--color-acid);
-    padding-top: calc(1.5 * var(--comfort-font-size));
     padding-right: calc(0.1 * var(--comfort-font-size));
+}
+
+#t:hover{
+    font-family: "hwt-tuscan-extended";
 }
 
 #in{
@@ -81,7 +127,13 @@
     font-style: italic;
     background-color: white;
     padding-top: calc(0.7 * var(--root-unit));
-    padding-right: calc(0.35 * var(--comfort-font-size));
+}
+
+#in:hover{
+    font-family: "malaga-narrow";
+    padding-left: 0.5rem;
+    font-size: 35vw;
+    color: var(--color-acid);
 }
 
 #home-description{
@@ -201,27 +253,43 @@ footer{
 
 #T{
     font-size: 25vw;
-    padding-top: calc(0.7 * var(--medium-gap));
+    padding-top: calc(0.3 * var(--medium-gap));
+}
+
+#T:hover{
+    font-size: 22vw;
 }
 
 #Y{
     font-size: 22vw;
-    padding-top: var(--small-gap);
 }
 
 #P{
+    font-size: 21vw;
+    padding-top: calc(0.2 * var(--medium-gap));
+}
+
+#P:hover{
     font-size: 17vw;
-    padding-top: calc(0.7 * var(--medium-gap));
+    padding-top: 2.3rem;
 }
 
 #E{
-    font-size: 17vw;
-    padding-left: var(--medium-gap);
-    padding-top: calc(0.8 * var(--medium-gap));
+    font-size: 21vw;
+    padding-left: 2.5rem;
+}
+
+#E:hover{
+    font-size: 25vw;
+    padding-left: 3rem;
 }
 
 #L{
     font-size: 18.5vw;
+}
+
+#L:hover{
+    font-size: 22vw;
 }
 
 #a{
@@ -229,13 +297,21 @@ footer{
     padding-top: calc(0.35 * var(--medium-gap));
 }
 
+#a:hover{
+    font-size: 20vw;
+}
+
 #t{
     font-size: 18vw;
-    padding-bottom: calc(1.6 * var(--small-gap));
+    padding-top: 0.3rem;
 }
 
 #in{
     font-size: 18.5vw;
+}
+
+#in:hover{
+    font-size: 20vw;
 }
 }
 
