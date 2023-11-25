@@ -143,11 +143,11 @@
     text-align: center;
 }
 
-/* .home-button:hover{
+.home-button:hover{
     border-style: solid;
     border-color: var(--color-acid);
-    border-width: calc(0.6 * var(--small-gap));
-} */
+    border-width: 0.5vw;
+}
 
 .intro-text{
     font-family: var(--font-lyon-slanted);

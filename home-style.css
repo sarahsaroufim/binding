@@ -32,7 +32,7 @@
     font-weight: 700;
     font-style: italic;
     font-size: 27vw;
-    color: white;
+    color: var(--color-acid);
     background-color: black;
     padding-top: 1rem;
 }
@@ -89,6 +89,8 @@
     font-size: var(--comfort-font-size);
     line-height: calc(1.5 * var(--comfort-font-size));
     color: white;
+    margin-left: auto;
+    margin-right: auto;
     background-color: black;
     padding-top: var(--medium-gap);
     padding-left: var(--side-margin);
@@ -99,12 +101,14 @@
 #latin-logotype{
     font-family: var(--font-ocrb);
     font-size: var(--comfort-font-size);
+    color: var(--color-acid);
 }
-    
+
 a:hover{
     text-decoration: underline;
     text-underline-offset: calc(0.5 * var(--root-unit));
-    text-decoration-thickness: calc(0.1 * var(--root-unit));
+    text-decoration-thickness: 0.5vw;
+    text-decoration-color: var(--color-acid);
 }
    
 #readings{
@@ -129,8 +133,10 @@ a:hover{
 }
 
 .north-east-arrow{
-    font-family: var(--font-helvetica);
+    font-family: var(--font-avenir);
+    font-weight: 900;
     font-size: calc(1.9 * var(--root-unit));
+    color: var(--color-acid);
 }
 
 #coming-soon{
@@ -218,35 +224,15 @@ footer{
 }
 }
 
-@media screen and (min-width: 601px) {
-    
-#home-description{
-    padding-left: calc(2.5 * var(--side-margin));
-    padding-right: calc(2.5 * var(--side-margin));
-}
-
-#readings{
-    padding-left: calc(2.5 * var(--side-margin));
-}
-}
-
 @media screen and (min-width: 769px) {
 
 #home-description{
     font-size: calc(1.2 * var(--comfort-font-size));
-    padding-left: calc(3.5 * var(--side-margin));
-    padding-right: calc(3.5 * var(--side-margin));
-    padding-top: calc(1.7 * var(--medium-gap));
-    padding-bottom: calc(1.7 * var(--medium-gap));
     line-height: calc(1.6 * var(--comfort-font-size));;
 }
     
 #latin-logotype{
     font-size: calc(1.2 * var(--comfort-font-size));
-}
-
-#readings{
-    padding-left: calc(3.5 * var(--side-margin));
 }
     
 .reading-titles{
@@ -261,25 +247,17 @@ footer{
 .author-names{
     font-size: var(--comfort-font-size);
 }
-
 }
 
 @media screen and (min-width: 1025px) {
 
 #home-description{
-    font-size: calc(1.6 * var(--comfort-font-size));
+    font-size: calc(1.5 * var(--comfort-font-size));
     line-height: calc(2.1 * var(--comfort-font-size));
-    padding-left: calc(5.3 * var(--side-margin));
-    padding-right: calc(5 * var(--side-margin));
 }
 
 #latin-logotype{
-    font-size: calc(1.6 * var(--comfort-font-size));
-}
-
-#readings{
-    padding-left: calc(5 * var(--side-margin));
-    padding-right: calc(5 * var(--side-margin));
+    font-size: calc(1.5 * var(--comfort-font-size));
 }
     
 .reading-titles{
@@ -287,12 +265,12 @@ footer{
     margin-top: calc(3 * var(--medium-gap));
 }
 
-.author-names{
-    font-size: calc(1.3 * var(--comfort-font-size));
-    padding-top: var(--small-gap);
+.north-east-arrow{
+    font-size: calc(1.9 * (1.9 * var(--root-unit)));
 }
-    
-/* .north-east-arrow{
-    font-size: ;
-} */
+
+.author-names{
+    font-size: calc(1.5 * var(--comfort-font-size));
+    padding-top: var(--small-gap);
+}  
 }
