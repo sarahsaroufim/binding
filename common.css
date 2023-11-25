@@ -176,7 +176,7 @@
     padding-bottom: var(--big-gap);
 }
 
-#top-button:hover a {
+#top-button:hover a{
     color: var(--color-acid);
 }
 
@@ -205,9 +205,9 @@
     text-decoration: underline;
 }
 
-#italics-link-footer a:hover .north-east-arrow,
-#shape-link-footer a:hover .north-east-arrow,
-#elements-link-footer a:hover .north-east-arrow{
+#italics-link-footer:hover .north-east-arrow,
+#shape-link-footer:hover .north-east-arrow,
+#elements-link-footer:hover .north-east-arrow{
     visibility: hidden;
 } 
 
