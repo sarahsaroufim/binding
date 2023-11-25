@@ -103,13 +103,6 @@
     font-size: var(--comfort-font-size);
     color: var(--color-acid);
 }
-
-a:hover{
-    text-decoration: underline;
-    text-underline-offset: calc(0.5 * var(--root-unit));
-    text-decoration-thickness: 0.5vw;
-    text-decoration-color: var(--color-acid);
-}
    
 #readings{
     background-color: black;
@@ -137,6 +130,28 @@ a:hover{
     font-weight: 900;
     font-size: calc(1.9 * var(--root-unit));
     color: var(--color-acid);
+}
+
+.reading-titles:hover .north-east-arrow{
+    visibility: hidden;
+}
+
+#italics-link-hover:hover{
+    color: var(--color-acid);
+    font-style: italic;
+}
+
+#shape-link-hover:hover{
+    color: black;
+    background-color: var(--color-acid);
+    display: inline-block;
+}
+
+#elements-link-hover:hover{
+    text-decoration: underline;
+    text-underline-offset: calc(0.5 * var(--root-unit));
+    text-decoration-thickness: 0.5vw;
+    text-decoration-color: var(--color-acid);
 }
 
 #coming-soon{
