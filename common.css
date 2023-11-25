@@ -141,7 +141,7 @@
     --color-acid: rgb(66, 255, 119);
 }
 
-.home-button{
+#home-button{
     font-family: 'bd-console-variable';
     font-variation-settings: 'GAME' 500;
     font-size: 44vw;
@@ -153,11 +153,63 @@
     text-align: center;
 }
 
-.home-button:hover{
+#home-button:hover{
     border-style: solid;
     border-color: var(--color-acid);
     border-width: 0.5vw;
 }
+
+.north-east-arrow{
+    font-family: var(--font-avenir);
+    font-weight: 900;
+}
+
+#top-button{
+    font-family: var(--font-avenir);
+    font-weight: 900;
+    color: white;
+    font-size: calc(3 * var(--comfort-font-size));
+    text-align: center;
+    background-color: black;
+    margin-top: -7rem;
+    padding-top: var(--big-gap);
+    padding-bottom: var(--big-gap);
+}
+
+#top-button:hover a {
+    color: var(--color-acid);
+}
+
+#footer-links{
+    font-family: var(--font-ocrb);
+    font-size: var(--comfort-font-size);
+    margin-left: var(--side-margin);
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+#footer-link-1{
+    padding-bottom: 1.5rem;
+}
+
+#italics-link-footer:hover {
+    font-style: italic;
+}
+
+#shape-link-footer:hover {
+    background-color: var(--color-acid);
+    display: inline-block;
+}
+
+#elements-link-footer:hover {
+    text-decoration: underline;
+}
+
+#italics-link-footer a:hover .north-east-arrow,
+#shape-link-footer a:hover .north-east-arrow,
+#elements-link-footer a:hover .north-east-arrow{
+    visibility: hidden;
+} 
 
 .intro-text{
     font-family: var(--font-lyon-slanted);
@@ -180,7 +232,7 @@
 
 @media screen and (min-width: 481px) {
 
-.home-button{
+#home-button{
     font-size: 13.2rem;
     height: 12.6rem;
     width: 15rem;
@@ -202,6 +254,23 @@
 }
 }
 
+@media screen and (min-width: 769px) {
+
+#top-button{
+    font-size: calc(4.5 * var(--comfort-font-size));
+}
+    
+#footer-links{
+    font-size: calc(1.2 * var(--comfort-font-size));
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+#footer-link-1{
+    padding-bottom: 2rem;
+}
+}
+
 @media screen and (min-width: 792px) {
     
 .intro-text,
@@ -209,5 +278,25 @@
     max-width: 45rem;
     margin-left: auto;
     margin-right: auto;
+}
+}
+
+@media screen and (min-width: 1025px) {
+
+#top-button{
+    font-size: calc(6 * var(--comfort-font-size));
+}
+    
+#footer-links{
+    font-size: calc(1.5 * var(--comfort-font-size));
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+}
+}
+    
+@media screen and (min-width: 1025px) {
+    
+#footer-link-1{
+    padding-bottom: 3rem;
 }
 }

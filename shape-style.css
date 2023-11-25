@@ -245,13 +245,6 @@ h2{
     letter-spacing: -1.3rem;
 }
 
-#black-block{
-    background-color: black;
-    height: 20rem;
-    margin-top: -7rem;
-    margin-bottom: 3rem;
-}
-
 @media screen and (min-width: 481px) {
 
 #author-name{
@@ -396,31 +389,31 @@ h2{
 
 @media screen and (min-width: 748px) {
 
-    #intro-example{
-        font-size: calc(0.75 * var(--big-gap));
-        word-spacing: calc(1.4 * var(--small-gap));
-        max-width: 50rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
+#intro-example{
+    font-size: calc(0.75 * var(--big-gap));
+    word-spacing: calc(1.4 * var(--small-gap));
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
     
-    #backslashes-1{
-        left: -29.2rem;
-        bottom: 7.8rem;
-    }
+#backslashes-1{
+    left: -29.2rem;
+    bottom: 7.81rem;
+}
     
-    #backslashes-2{
-        left: -29.2rem;
-    }
+#backslashes-2{
+    left: -29.2rem;
+}
     
-    #dash-1{
-        left: -22.3rem; 
-    }
+#dash-1{
+    left: -22.3rem; 
+}
     
-    #dash-2{
-        left: -1.19rem;
-    }
-    }
+#dash-2{
+    left: -1.19rem;
+}
+}
 
 
 
