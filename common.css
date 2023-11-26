@@ -141,6 +141,11 @@
     --color-acid: rgb(66, 255, 119);
 }
 
+.word{
+    white-space: nowrap;
+    position: relative;
+}
+
 #home-button{
     font-family: 'bd-console-variable';
     font-variation-settings: 'GAME' 500;
@@ -171,8 +176,8 @@
     font-size: calc(3 * var(--comfort-font-size));
     text-align: center;
     background-color: black;
-    margin-top: -7rem;
-    padding-top: var(--big-gap);
+    margin-top: -10rem;
+    padding-top: calc(1.5 * var(--big-gap));
     padding-bottom: var(--big-gap);
 }
 

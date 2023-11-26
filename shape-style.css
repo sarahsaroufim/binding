@@ -90,11 +90,6 @@ h1{
     font-size: calc(2.7 * var(--comfort-font-size));
 }
 
-.word{
-    white-space: nowrap;
-    position: relative;
-}
-
 #intro{
     color: white;
     background-color: black;
@@ -166,7 +161,7 @@ h2{
 }
 
 .inline-highlight{
-    font-size: calc(0.9 * var(--comfort-font-size));
+    font-size: calc(0.8 * var(--comfort-font-size));
     font-family: var(--font-avenir);
     font-weight: 600;
     font-style: normal;
@@ -181,39 +176,32 @@ h2{
 #logotype-examples{
     background-color: black;
     color: white;
-    padding-top: calc(1.5 * var(--big-gap));
-    padding-bottom: calc(2.2 * var(--big-gap));
-    z-index: -1;
-    position: relative;
+    padding-top: var(--big-gap);
+    padding-bottom: calc(1.9 * var(--big-gap));
     margin-top: calc(0.5 * var(--medium-gap));
-    margin-bottom: -11rem;
+    margin-bottom: -12rem;
     text-align: center;
     line-height: var(--big-gap);
 }
 
-#dano-logo{
-    position: relative;
+#dano{
     font-family: 'Comic Neue', cursive;
     font-style: italic;
     font-weight: 700;
     font-size: calc(2.5 * var(--comfort-font-size));
-    position: relative;
-}
-
-#dano{
     border-style: solid;
-    display: inline;
     padding: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 3rem;
+    border-width: 0.25rem;
     position: relative;
 }
 
 #A-dash{
     position: absolute;
-    right: 11.7rem;
-    top: 0.2rem;
+    left: 3.5rem;
+    top: -1.9rem;
 }
 
 #toponomastica{
@@ -298,6 +286,33 @@ h2{
     font-size: calc(1.7 * var(--comfort-font-size));
 }
 
+}
+
+@media screen and (min-width: 481px) {
+
+.inline-highlight{
+    font-size: calc(0.95 * var(--comfort-font-size));
+}
+
+#logotype-examples{
+    padding-top: 12rem;
+    padding-bottom: 18rem;
+    line-height: calc(1.5 * var(--big-gap));
+}
+
+#dano{
+    font-size: calc(4 * var(--comfort-font-size));
+    padding: 0.7rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    border-width: 0.35rem;
+    border-radius: 5rem;
+}
+
+#A-dash{
+    left: 5.5rem;
+    top: -2.7rem;
+}
 }
 
 @media screen and (min-width: 553px) {
@@ -385,6 +400,31 @@ h1{
 h2{
     font-size: calc(1.9 * var(--comfort-font-size));
 }
+
+.inline-highlight{
+    font-size: calc(1.1 * var(--comfort-font-size));
+}
+
+#logotype-examples{
+    padding-top: 18rem;
+    padding-bottom: 22rem;
+    line-height: calc(2 * var(--big-gap));
+}
+
+#dano{
+    font-size: calc(6.5 * var(--comfort-font-size));
+    padding: 0.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-width: 0.5rem;
+    border-radius: 10rem;
+}
+
+#A-dash{
+    left: 8.3rem;
+    top: -2.7rem;
+}
+
 }
 
 @media screen and (min-width: 748px) {

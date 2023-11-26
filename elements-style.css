@@ -5,10 +5,6 @@ letter-container-title{
     position: relative;
 }
 
-.word{
-    position: relative;
-}
-
 .annotations{
     position: absolute;
     font-family: var(--font-helvetica);
