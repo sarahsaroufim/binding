@@ -53,8 +53,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 32vw;
-    padding-top: 2.6rem;
-    padding-left: 0.5rem;
+    padding-top: 2.8rem;
+    padding-left: 1.5rem;
     color: white;
 }
 
@@ -225,12 +225,11 @@
     font-size: calc(2 * var(--comfort-font-size));
     color: white;
     background-color: black;
-    padding-left: calc(0.5 * var(--side-margin));
-    padding-right: calc(0.5 * var(--side-margin));
+    padding-left: calc(0.55 * var(--side-margin));
     padding-bottom: var(--small-gap);
     margin-left: var(--side-margin);
     margin-bottom: calc(2 * var(--small-gap));
-    width: calc(3.15 * var(--comfort-font-size));
+    width: calc(3.25 * var(--comfort-font-size));
 }
 
 #arabic-emblem:hover{
@@ -270,12 +269,11 @@ footer{
 
 #P{
     font-size: 21vw;
-    padding-top: calc(0.2 * var(--medium-gap));
+    padding-top: calc(0.5 * var(--medium-gap));
 }
 
 #P:hover{
     font-size: 17vw;
-    padding-top: 2.3rem;
 }
 
 #E{

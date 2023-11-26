@@ -152,7 +152,8 @@
     font-size: 44vw;
     color: var(--color-acid);
     background-color: black;
-    height: 42vw;
+    padding-top: 0.4rem;
+    height: 44vw;
     width: 50vw;
     margin-bottom: calc(1.5 * var(--medium-gap));
     text-align: center;
@@ -239,7 +240,7 @@
 
 #home-button{
     font-size: 13.2rem;
-    height: 12.6rem;
+    height: 13.2rem;
     width: 15rem;
 }
 

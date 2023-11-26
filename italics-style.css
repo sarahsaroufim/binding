@@ -83,14 +83,6 @@ h2{
     text-decoration-thickness: calc(0.6 * var(--small-gap));
 }
 
-.main-text{
-    font-family: var(--font-roboto);
-    font-size: var(--root-unit);
-    margin-left: var(--side-margin);
-    margin-bottom: calc(4 * var(--small-gap));
-    padding-right: var(--side-margin);
-}
-
 h3{
     font-family: var(--font-roboto-condensed);
     font-size: var(--comfort-font-size);
