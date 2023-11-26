@@ -1,9 +1,5 @@
 /* ........................"THE SHAPE OF WORDS" CSS........................ */
 
-html{
-    overflow-x: hidden;
-}
-
 body{
     background-color: var(--color-acid);
     overflow-x: hidden;

@@ -22,7 +22,6 @@
 /* Malaga */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* Rooney */ @import url("https://use.typekit.net/rwu5qlp.css");
 /* Press Start 2P */ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-/* Rye */ @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 /* Gravitas One */ @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 /* Bagel Fat One */ @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 /* DynaPuff */ @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap');
@@ -139,6 +138,10 @@
     --medium-gap: calc(2 * var(--comfort-font-size));
     --big-gap: calc(3.5 * var(--medium-gap));
     --color-acid: rgb(66, 255, 119);
+}
+
+html{
+    overflow-x: hidden;
 }
 
 .word{
@@ -298,10 +301,7 @@
     padding-top: 4rem;
     padding-bottom: 1.5rem;
 }
-}
-    
-@media screen and (min-width: 1025px) {
-    
+
 #footer-link-1{
     padding-bottom: 3rem;
 }
