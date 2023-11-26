@@ -1,7 +1,7 @@
 /* ........................"ITALICS" CSS........................ */
 
 h1{
-    font-family: var(--font-inter);
+    font-family: "franklin-gothic-atf";
     font-weight: 900;
     font-style: italic;
     padding-left: calc(2 * var(--medium-gap));
