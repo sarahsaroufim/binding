@@ -45,7 +45,7 @@
     font-size: 40vw;
     color: var(--color-acid);
     background-color: black;
-    padding-bottom: 1.4rem;
+    padding-bottom: 2rem;
 }
 
 #P:hover{
@@ -53,7 +53,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 32vw;
-    padding-top: 2rem;
+    padding-top: 2.6rem;
     padding-left: 0.5rem;
     color: white;
 }
@@ -65,14 +65,14 @@
     font-size: 38vw;
     background-color: var(--color-acid);
     padding-left: 3.5rem;
-    padding-top: 0.7rem;
+    padding-top: 1rem;
     overflow: hidden;
 }
 
 #E:hover{
     font-family: "Modak";
     font-size: 45vw;
-    padding-top: 1.5rem;
+    padding-top: 1.7rem;
     padding-right: 1rem;
 }
 

@@ -161,7 +161,7 @@
 #home-button:hover{
     border-style: solid;
     border-color: var(--color-acid);
-    border-width: 0.5vw;
+    border-width: 0.35rem;
 }
 
 .north-east-arrow{
