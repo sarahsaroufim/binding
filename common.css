@@ -145,6 +145,10 @@ html{
     overflow-x: hidden;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .word{
     white-space: nowrap;
     position: relative;
@@ -167,6 +171,11 @@ html{
     border-style: solid;
     border-color: var(--color-acid);
     border-width: 0.35rem;
+}
+
+#author-name{
+    font-family: var(--font-ocrb);
+    font-size: var(--root-font-size);
 }
 
 .north-east-arrow{
@@ -221,6 +230,10 @@ html{
     visibility: hidden;
 } 
 
+.text-separation{
+    margin-bottom: var(--medium-gap);
+}
+
 .intro-text{
     font-family: var(--font-lyon-slanted);
 }
@@ -232,12 +245,12 @@ html{
 .intro-text,
 .main-text{
     font-size: var(--comfort-font-size);
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: var(--side-margin);
+    margin-right: var(--side-margin);
     line-height: 1.7rem;
     margin-bottom: calc(1.5 * var(--medium-gap));
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: calc(0.5 * var(--side-margin));
+    padding-right: calc(0.5 * var(--side-margin));
 }
 
 @media screen and (min-width: 481px) {

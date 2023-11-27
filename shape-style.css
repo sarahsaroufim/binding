@@ -28,8 +28,6 @@ body{
 }
 
 #author-name{
-    font-family: var(--font-ocrb);
-    font-size: var(--root-font-size);
     padding-top: calc(4 * var(--small-gap));
     padding-bottom: calc(2 * var(--small-gap));
 }
@@ -140,20 +138,16 @@ h1{
     position: relative;
 }
 
-.text-separation{
-    margin-bottom: var(--medium-gap);
-}
-
 h2{
     font-family: var(--font-lyon-slanted);
     font-size: calc(1.5 * var(--comfort-font-size));
     background-color: var(--color-acid);
     padding-bottom: var(--medium-gap);
     margin-bottom: calc(2 * var(--medium-gap));
-    margin-left: -2vw;
+    margin-left: calc(-0.8 * var(--side-margin));
     padding-left: 0.5rem;
     padding-top: 0.2rem;
-    margin-right: -2vw;
+    margin-right: calc(-0.5 * var(--side-margin));
 }
 
 .inline-highlight{
