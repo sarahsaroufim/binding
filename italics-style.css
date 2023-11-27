@@ -158,6 +158,23 @@ h3{
     left: -0.5rem;
 }
 
+.example{
+    font-family: "UnifrakturCook";
+    font-size: calc(2 * var(--comfort-font-size));
+    line-height: 2.5rem;
+    margin-bottom: var(--big-gap);
+    border-style: solid;
+    border-width: 1rem;
+    border-color: var(--color-acid);
+    margin: -1.2rem;
+    padding: 1.2rem;
+}
+
+.roman{
+    font-family: var(--font-lyon-text);
+    font-size: calc(1.5 * var(--comfort-font-size));
+}
+
 @media screen and (min-width: 481px) {
 
 h1{
@@ -273,10 +290,6 @@ h3{
 
 #caption-1{
     margin-top: -3rem;
-}
-
-#caption-3::before {
-    height: 141%;
 }
 
 .superscript {
