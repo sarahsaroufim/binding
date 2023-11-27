@@ -56,21 +56,21 @@ h3{
 
 #revolution{
     font-family: var(--font-lyon-slanted);
-    color: white;
+    color: black;
     margin-left: -3rem;
     margin-right: -3rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 2rem;
     padding-bottom: 10rem;
-    background-color: black;
-    box-shadow: 30rem 0 0 0 var(--color-acid), -30rem 0 0 0 var(--color-acid);
+    background-color: var(--color-acid);
+    box-shadow: 30rem 0 0 0 black, -30rem 0 0 0 black;
     margin-top: calc(3 * var(--medium-gap));
 }
 
 h3{
-    color: black;
-    background-color: var(--color-acid);
+    color: var(--color-acid);
+    background-color: black;
     padding-top: 5rem;
     padding-left: 25rem;
     padding-bottom: 1rem;
@@ -81,7 +81,7 @@ h3{
 }
 
 #not-h3-box{
-    color: var(--color-acid);
+    color: black;
     margin-top: -4rem;
     margin-bottom: calc(3 * var(--medium-gap));
 }
@@ -90,11 +90,12 @@ h3{
     font-family: var(--font-avenir);
     font-style: italic;
     font-weight: 500;
+    color: var(--color-acid);
     font-size: calc(0.85 * var(--root-unit));
     line-height: 1.2rem;
     position: relative;
     margin-bottom: var(--big-gap);
-    max-width: 19rem;
+    max-width: 18.3rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -103,8 +104,8 @@ h3{
     content: "";
     position: absolute;
     width: 110%;
-    height: 140%;
-    background-color: var(--color-acid);
+    height: 145%;
+    background-color: black;
     transform: skewY(-4.3deg);
     z-index: -1;
     top: -1.6rem;
@@ -116,24 +117,32 @@ h3{
 }
 
 #caption-2::before {
-    height: 132%;
+    height: 135%;
 }
 
 #caption-3::before {
-    height: 145%;
+    height: 143%;
+}
+
+#caption-2 {
+    margin-top: calc(1.5 * var(--medium-gap));
+}
+
+#caption-3 {
+    margin-top: calc(1.5 * var(--medium-gap));
 }
 
 .superscript {
     font-family: var(--font-avenir);
     font-size: calc(0.85 * var(--root-unit));
-    color: black;
+    color: var(--color-acid);
     font-weight: 600;
     font-style: italic;
     vertical-align: top;
     position: relative;
     display: inline-block;
     z-index: 1;
-    margin-right: 1.15rem;
+    margin-right: 1rem;
     margin-left: 0.5rem;
 }
 
@@ -142,7 +151,7 @@ h3{
     position: absolute;
     width: 350%;
     height: 100%;
-    background-color: var(--color-acid);
+    background-color: black;
     transform: skewY(-4.3deg);
     z-index: -1;
     box-sizing: border-box;
@@ -189,7 +198,7 @@ h3{
     font-size: var(--root-unit);
     line-height: 1.5rem;
     margin-bottom: calc(1.2 * var(--big-gap));
-    max-width: 21.7rem;
+    max-width: 21.9rem;
 }
 
 .caption::before{
@@ -199,6 +208,10 @@ h3{
 
 #caption-1{
     margin-top: -4rem;
+}
+
+#caption-3::before {
+    height: 138%;
 }
 
 .superscript {
@@ -251,7 +264,7 @@ h3{
     font-size: calc(1.2 * var(--root-unit));
     line-height: 1.8rem;
     margin-bottom: calc(1.5 * var(--big-gap));
-    max-width: 26rem;
+    max-width: 26.5rem;
 }
 
 .caption::before{
@@ -260,6 +273,10 @@ h3{
 
 #caption-1{
     margin-top: -3rem;
+}
+
+#caption-3::before {
+    height: 141%;
 }
 
 .superscript {

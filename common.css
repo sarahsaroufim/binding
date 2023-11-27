@@ -30,13 +30,6 @@
 /* Modak */ @import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 /* Franklin Gothic ATF */ @import url("https://use.typekit.net/rwu5qlp.css");
 
-/* Chomsky Blackletter */
-@font-face {
-    font-family: 'Chomsky';
-    src: url('fonts/Chomsky.woff2') format('woff2'),
-         url('fonts/Chomsky.woff') format('woff'),
-}
-
 /*
 	This font software is the property of Commercial Type.
 
