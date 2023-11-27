@@ -158,21 +158,63 @@ h3{
     left: -0.5rem;
 }
 
-.example{
+.example {
     font-family: "UnifrakturCook";
     font-size: calc(2 * var(--comfort-font-size));
     line-height: 2.5rem;
-    margin-bottom: var(--big-gap);
     border-style: solid;
     border-width: 1rem;
     border-color: var(--color-acid);
     margin: -1.2rem;
     padding: 1.2rem;
+    padding-bottom: 5rem;
+    margin-bottom: calc(0.8 * var(--big-gap));
+    position: relative;
+}
+
+.example::before {
+    content: "";
+    position: absolute;
+    left: -1rem;
+    right: -0.98rem;
+    bottom: -3rem;
+    transform: skewY(-4.3deg);
+    z-index: -1;
+    border-bottom: 6rem solid;
+}
+
+#example-1::before {
+    border-bottom-color: var(--color-acid);
 }
 
 .roman{
     font-family: var(--font-lyon-text);
     font-size: calc(1.5 * var(--comfort-font-size));
+}
+
+#example-2{
+    border-color: black;
+}
+
+.baroque{
+    font-family: "baroque-text-jf";
+    font-size: calc(2.5 * var(--comfort-font-size));
+}
+
+#example-2::before {
+    border-bottom-color: black;
+}
+
+.slanted{
+    font-family: var(--font-lyon-slanted);
+}
+
+.example-text{
+    font-family: var(--font-lyon-slanted);
+    color: var(--color-acid);
+    transform: rotate(-4.3deg);
+    margin-top: -9.9rem;
+    margin-bottom: calc(0.8 * var(--big-gap));
 }
 
 @media screen and (min-width: 481px) {
@@ -238,6 +280,23 @@ h3{
 
 .superscript::before {
     left: -0.6rem;
+}
+
+.example {
+    font-size: calc(3 * var(--comfort-font-size));
+    line-height: 3.5rem;
+    padding: 1.6rem;
+    padding-bottom: 5.5rem;
+    margin-top: calc(0.5 * var(--small-gap));
+    margin-bottom: calc(1.5 * var(--big-gap));
+}
+
+.roman{
+    font-size: calc(2.3 * var(--comfort-font-size));
+}
+
+.baroque{
+    font-size: calc(3.7 * var(--comfort-font-size));
 }
 }
 
