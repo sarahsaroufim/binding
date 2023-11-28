@@ -169,7 +169,6 @@ h3{
     background-color: white;
     border-style: solid;
     border-width: 1rem;
-    border-color: var(--color-acid);
     margin: -1.2rem;
     padding: 1.2rem;
     margin-bottom: calc(0.8 * var(--big-gap));
@@ -184,7 +183,8 @@ h3{
     bottom: -3rem;
     transform: skewY(-4.3deg);
     z-index: -1;
-    border-bottom: 6rem solid var(--color-acid);
+    border-style: solid;
+    border-bottom-width: 6rem;
 }
 
 .roman{
@@ -195,7 +195,6 @@ h3{
 #example-2,
 #example-3,
 #example-4{
-    border-color: black;
     background-color: var(--color-acid);
     padding-bottom: 3rem;
 }
@@ -212,13 +211,6 @@ h3{
 .baroque{
     font-family: "baroque-text-jf";
     font-size: calc(2.5 * var(--comfort-font-size));
-}
-
-#example-2::before,
-#example-3::before,
-#example-4::before{
-    border-style: solid;
-    border-color: black;
 }
 
 #example-2::before {
@@ -256,7 +248,8 @@ h3{
     margin-bottom: var(--big-gap);
 }
 
-#top-margin{
+#top-margin,
+.space{
     margin-top: calc(1.5 * var(--big-gap));
 }
 
@@ -271,8 +264,10 @@ h3{
 }
 
 .small-example,
-#soap-container{
+#soap-container,
+#rotated-font-container{
     border-style: solid;
+    border-color: var(--color-acid);
     border-width: 1rem;
     margin-left: -2rem;
     margin-right: -2rem;
@@ -283,6 +278,7 @@ h3{
     font-family: var(--font-lyon-slanted);
     margin-top: calc(2 * var(--small-gap));
     margin-bottom: var(--medium-gap);
+    text-align: center;
 }
 
 #underline{
@@ -295,19 +291,29 @@ h3{
     font-weight: 700;
 }
 
-.soap{
-    font-family: var(--font-avenir);
+.soap,
+.rotated-font-example{
     font-size: calc(4 * var(--comfort-font-size));
     line-height: 5.5rem;
     font-weight: 600;
     text-align: center;
 }
 
-#soap-container{
-    border-color: var(--color-acid);
+.soap{
+    font-family: var(--font-avenir);
 }
 
-#soap-1{
+.rotated-font-example{
+    font-family: "mr-eaves-xl-modern";
+}
+
+#soap-container,
+#rotated-font-container{
+    margin-bottom: var(--big-gap);
+}
+
+#soap-1,
+#regular-example{
     padding-top: 2.5rem;
 }
 
@@ -317,6 +323,17 @@ h3{
 
 #soap-3{
     font-style: italic;
+}
+
+#rotated-example span {
+    display: inline-block;
+    transform: rotate(10deg);
+}
+
+#rotated-example span:first-child,
+#bigger-a {
+    font-size: calc(5.5 * var(--comfort-font-size));
+    font-weight: 400;
 }
 
 @media screen and (min-width: 452px) {
@@ -472,6 +489,24 @@ h3{
 #selma{
     font-size: calc(1.4 * var(--comfort-font-size));
 }
+
+.soap,
+.rotated-font-example{
+    font-size: calc(5.5 * var(--comfort-font-size));
+    line-height: 8rem;
+}
+
+#small-example-2,
+#small-example-3,
+#soap-2,
+#soap-3{
+    margin-top: 5.5rem;
+}
+
+#rotated-example span:first-child,
+#bigger-a {
+    font-size: calc(7.7 * var(--comfort-font-size));
+}
 }
 
 @media screen and (min-width: 549px) {
@@ -575,6 +610,17 @@ h3{
     font-size: calc(2.5 * var(--comfort-font-size));
     line-height: 3.5rem;
     padding: 2rem;
+}
+
+.soap,
+.rotated-font-example{
+    font-size: calc(7 * var(--comfort-font-size));
+    line-height: 10rem;
+}
+
+#rotated-example span:first-child,
+#bigger-a {
+    font-size: calc(9.7 * var(--comfort-font-size));
 }
 }
 
