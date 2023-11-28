@@ -232,7 +232,7 @@ h3{
 }
 
 #example-4::before{
-    border-bottom-width: 27rem;
+    border-bottom-width: 26.5rem;
     top: -3.3rem;
 }
 
@@ -252,7 +252,29 @@ h3{
     font-family: var(--font-lyon-slanted);
     color: var(--color-acid);
     margin-top: -7rem;
-    margin-bottom: calc(0.8 * var(--big-gap));
+    margin-bottom: var(--big-gap);
+}
+
+@media screen and (min-width: 452px) {
+
+#example-2-text{
+    margin-top: -7rem;
+}
+
+#example-2::before{
+    border-bottom-width: 10rem;
+}
+
+#example-3{
+    margin-top: 8.7rem;
+}
+}
+
+@media screen and (min-width: 471px) {
+
+#example-4{
+    margin-top: 10.7rem;
+}
 }
 
 @media screen and (min-width: 481px) {
@@ -335,6 +357,60 @@ h3{
 .baroque{
     font-size: calc(3.7 * var(--comfort-font-size));
 }
+
+#example-2::before{
+    border-bottom-width: 22rem;
+}
+
+.example-text,
+#example-2-text{
+    margin-top: -12.5rem;
+}
+
+#example-3{
+    margin-top: 12rem;
+}
+
+#example-3::before{
+    border-bottom-width: 44rem;
+}
+
+#example-4{
+    margin-top: 11.6rem;
+}
+
+#example-4::before{
+    border-bottom-width: 35rem;
+}
+
+.example-text{
+    margin-bottom: calc(1.5 * var(--big-gap));
+}
+}
+
+@media screen and (min-width: 549px) {
+
+#example-4{
+    margin-top: 13.7rem;
+}
+}
+
+@media screen and (min-width: 610px) {
+
+#example-4{
+    margin-top: 12.4rem;
+}  
+
+#example-3::before{
+    border-bottom-width: 39rem;
+}
+}
+
+@media screen and (min-width: 635px) {
+
+#example-3{
+    margin-top: 15.7rem;
+}  
 }
 
 @media screen and (min-width: 684px) {
@@ -397,4 +473,15 @@ h3{
 .superscript::before {
     left: -0.75rem;
 }
+
+.example-text{
+    margin-bottom: calc(2 * var(--big-gap));
+}
+}
+
+@media screen and (min-width: 719px) {
+
+#example-4{
+    margin-top: 16.1rem;
+}  
 }
