@@ -336,10 +336,12 @@ h3{
 }
 
 #mandarin-text{
+    font-size: 'Noto Sans TC';
     font-size: calc(1.5 * var(--comfort-font-size));
     font-style: italic;
-    margin-top: var(--medium-gap);
-    margin-bottom: calc(2 * var(--medium-gap));
+    margin-top: calc(1.8 * var(--medium-gap));
+    margin-bottom: var(--big-gap);
+    text-align: center;
 }
 
 #adobe-arabic{
@@ -560,6 +562,12 @@ h3{
 #bigger-a {
     font-size: calc(7.7 * var(--comfort-font-size));
 }
+
+#mandarin-text{
+    font-size: calc(2 * var(--comfort-font-size));
+    margin-top: calc(2.2 * var(--medium-gap));
+    margin-bottom: calc(1.5 * var(--big-gap));
+}
 }
 
 @media screen and (min-width: 549px) {
@@ -674,6 +682,10 @@ h3{
 #rotated-example span:first-child,
 #bigger-a {
     font-size: calc(9.7 * var(--comfort-font-size));
+}
+
+#mandarin-text{
+    font-size: calc(3 * var(--comfort-font-size));
 }
 }
 
