@@ -193,14 +193,20 @@ h3{
 }
 
 #example-2,
-#example-3{
+#example-3,
+#example-4{
     border-color: black;
     background-color: var(--color-acid);
     padding-bottom: 3rem;
 }
 
-#example-3{
+#example-3,
+#example-4{
     margin-top: 9rem;
+}
+
+#example-4{
+    text-align: center;
 }
 
 .baroque{
@@ -208,18 +214,38 @@ h3{
     font-size: calc(2.5 * var(--comfort-font-size));
 }
 
+#example-2::before,
+#example-3::before,
+#example-4::before{
+    border-style: solid;
+    border-color: black;
+}
+
 #example-2::before {
-    border-bottom: 13rem solid black;
+    border-bottom-width: 13rem;
     top: 12rem;
 }
 
 #example-3::before {
-    border-bottom: 34rem solid black;
+    border-bottom-width: 34rem;
     top: -3rem;
+}
+
+#example-4::before{
+    border-bottom-width: 27rem;
+    top: -3.3rem;
+}
+
+#wider{
+    letter-spacing: calc(1.5 * var(--small-gap));
 }
 
 .bigger{
     font-size: calc(2.6 * var(--comfort-font-size));
+}
+
+.smaller{
+    font-size: var(--comfort-font-size);
 }
 
 .example-text{
