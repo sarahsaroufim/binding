@@ -342,6 +342,7 @@ h3{
     margin-top: calc(1.8 * var(--medium-gap));
     margin-bottom: var(--big-gap);
     text-align: center;
+    color: var(--color-acid);
 }
 
 #adobe-arabic{
@@ -363,6 +364,7 @@ h3{
 
 #italic{
     font-style: italic;
+    color: var(--color-acid);
 }
 
 #bold{
@@ -370,10 +372,15 @@ h3{
     font-size: calc(1.75 * var(--comfort-font-size));
 }
 
+#lyon-arabic-slanted{
+    color: var(--color-acid);
+}
+
 #italic-bold{
     font-weight: 700;
     font-style: italic;
     font-size: calc(1.75 * var(--comfort-font-size));
+    color: var(--color-acid);
 }
 
 .my-voice{
@@ -389,7 +396,22 @@ h3{
     margin-left: -0.45rem;
 }
 
+#top-button{
+    position: relative;
+}
 
+#top-button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform: skewY(-4.3deg);
+    transform-origin: top left;
+    z-index: -1;
+}
 
 @media screen and (min-width: 452px) {
 
@@ -568,6 +590,33 @@ h3{
     margin-top: calc(2.2 * var(--medium-gap));
     margin-bottom: calc(1.5 * var(--big-gap));
 }
+
+.arabic-example{
+    margin-top: 10rem;
+    font-size: calc(3.5 * var(--comfort-font-size));
+    line-height: 5.5rem;
+    margin-bottom: calc(0.5 * var(--medium-gap));
+    margin-top: calc(2 * var(--medium-gap));
+}
+
+#lyon-arabic{
+    margin-top: calc(3 * var(--medium-gap));;
+    margin-bottom: calc(1.7 * var(--medium-gap));
+}
+
+#bold,
+#italic-bold{
+    font-size: calc(2.9 * var(--comfort-font-size));
+}
+
+#italic-bold{
+    margin-bottom: var(--medium-gap);
+}
+
+#true-italic-arabic{
+    margin-bottom: calc(1.5 * var(--big-gap));
+}
+
 }
 
 @media screen and (min-width: 549px) {
@@ -686,6 +735,16 @@ h3{
 
 #mandarin-text{
     font-size: calc(3 * var(--comfort-font-size));
+}
+
+.arabic-example{
+    font-size: calc(5 * var(--comfort-font-size));
+    line-height: 8rem;
+}
+
+#bold,
+#italic-bold{
+    font-size: calc(4.2 * var(--comfort-font-size));
 }
 }
 
