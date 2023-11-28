@@ -239,6 +239,10 @@ h2{
     right: -7.4rem;
 }
 
+#top-button{
+    margin-top: -10rem;
+}
+
 @media screen and (min-width: 481px) {
 
 #author-name{

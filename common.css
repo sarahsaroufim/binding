@@ -185,7 +185,6 @@ body {
     font-size: calc(3 * var(--comfort-font-size));
     text-align: center;
     background-color: black;
-    margin-top: -10rem;
     padding-top: calc(1.5 * var(--big-gap));
     padding-bottom: var(--big-gap);
 }
@@ -197,9 +196,10 @@ body {
 #footer-links{
     font-family: var(--font-ocrb);
     font-size: var(--comfort-font-size);
-    margin-left: var(--side-margin);
     padding-top: 2rem;
     padding-bottom: 0.5rem;
+    background-color: var(--color-acid);
+    padding-left: var(--side-margin);
 }
 
 #footer-link-1{
@@ -211,7 +211,8 @@ body {
 }
 
 #shape-link-footer:hover {
-    background-color: var(--color-acid);
+    color: var(--color-acid);
+    background-color: black;
     display: inline-block;
 }
 

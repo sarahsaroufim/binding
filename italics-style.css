@@ -244,7 +244,8 @@ h3{
     font-size: calc(2.6 * var(--comfort-font-size));
 }
 
-.smaller{
+#smaller,
+#selma{
     font-size: var(--comfort-font-size);
 }
 
@@ -253,6 +254,41 @@ h3{
     color: var(--color-acid);
     margin-top: -7rem;
     margin-bottom: var(--big-gap);
+}
+
+#top-margin{
+    margin-top: calc(1.5 * var(--big-gap));
+}
+
+#bottom-margin{
+    margin-bottom: var(--big-gap);
+}
+
+.small-example{
+    font-size: calc(1.5 * var(--comfort-font-size));
+    line-height: 2.2rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 1.2rem;
+}
+
+.small-example-text{
+    font-family: var(--font-lyon-slanted);
+    margin-top: calc(2 * var(--small-gap));
+    margin-bottom: var(--medium-gap);
+}
+
+#underline{
+    text-decoration: underline;
+    text-decoration-color: var(--color-acid);
+    text-underline-offset: var(--small-gap);
+}
+
+.bolder{
+    font-weight: 700;
 }
 
 @media screen and (min-width: 452px) {
@@ -270,11 +306,22 @@ h3{
 }
 }
 
-@media screen and (min-width: 471px) {
-
+@media screen and (min-width: 466px) {
+   
 #example-4{
-    margin-top: 10.7rem;
+    margin-top: 9.8rem;
+}    
+
+#example-3::before{
+    border-bottom-width: 32rem;
 }
+}
+
+@media screen and (min-width: 471px) {
+   
+#example-4{
+    margin-top: 11.5rem;
+}    
 }
 
 @media screen and (min-width: 481px) {
@@ -383,8 +430,19 @@ h3{
     border-bottom-width: 35rem;
 }
 
-.example-text{
-    margin-bottom: calc(1.5 * var(--big-gap));
+#top-margin{
+    margin-top: calc(2 * var(--big-gap));
+}
+
+.small-example{
+    font-size: calc(2 * var(--comfort-font-size));
+    line-height: 2.9rem;
+    padding: 1.5rem;
+}
+
+#smaller,
+#selma{
+    font-size: calc(1.4 * var(--comfort-font-size));
 }
 }
 
@@ -395,14 +453,21 @@ h3{
 }
 }
 
-@media screen and (min-width: 610px) {
+@media screen and (min-width: 573px) {
+
+#top-margin{
+    margin-top: calc(2.5 * var(--big-gap));
+}
+}
+
+@media screen and (min-width: 603px) {
 
 #example-4{
-    margin-top: 12.4rem;
-}  
+    margin-top: 13rem;
+}
 
 #example-3::before{
-    border-bottom-width: 39rem;
+    border-bottom-width: 40rem;
 }
 }
 
@@ -474,14 +539,20 @@ h3{
     left: -0.75rem;
 }
 
-.example-text{
-    margin-bottom: calc(2 * var(--big-gap));
+#top-margin{
+    margin-top: calc(2.2 * var(--big-gap));
+}
+
+.small-example{
+    font-size: calc(2.5 * var(--comfort-font-size));
+    line-height: 3.5rem;
+    padding: 2rem;
 }
 }
 
 @media screen and (min-width: 719px) {
 
 #example-4{
-    margin-top: 16.1rem;
-}  
+    margin-top: 16.7rem;
+}
 }
