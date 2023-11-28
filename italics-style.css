@@ -1,5 +1,9 @@
 /* ........................"ITALICS" CSS........................ */
 
+.slanted{
+    font-family: var(--font-lyon-slanted);
+}
+
 h1{
     font-family: "franklin-gothic-atf";
     font-weight: 900;
@@ -162,12 +166,12 @@ h3{
     font-family: "UnifrakturCook";
     font-size: calc(2 * var(--comfort-font-size));
     line-height: 2.5rem;
+    background-color: white;
     border-style: solid;
     border-width: 1rem;
     border-color: var(--color-acid);
     margin: -1.2rem;
     padding: 1.2rem;
-    padding-bottom: 5rem;
     margin-bottom: calc(0.8 * var(--big-gap));
     position: relative;
 }
@@ -180,11 +184,7 @@ h3{
     bottom: -3rem;
     transform: skewY(-4.3deg);
     z-index: -1;
-    border-bottom: 6rem solid;
-}
-
-#example-1::before {
-    border-bottom-color: var(--color-acid);
+    border-bottom: 6rem solid var(--color-acid);
 }
 
 .roman{
@@ -192,8 +192,15 @@ h3{
     font-size: calc(1.5 * var(--comfort-font-size));
 }
 
-#example-2{
+#example-2,
+#example-3{
     border-color: black;
+    background-color: var(--color-acid);
+    padding-bottom: 3rem;
+}
+
+#example-3{
+    margin-top: 9rem;
 }
 
 .baroque{
@@ -202,18 +209,23 @@ h3{
 }
 
 #example-2::before {
-    border-bottom-color: black;
+    border-bottom: 13rem solid black;
+    top: 12rem;
 }
 
-.slanted{
-    font-family: var(--font-lyon-slanted);
+#example-3::before {
+    border-bottom: 34rem solid black;
+    top: -3rem;
+}
+
+.bigger{
+    font-size: calc(2.6 * var(--comfort-font-size));
 }
 
 .example-text{
     font-family: var(--font-lyon-slanted);
     color: var(--color-acid);
-    transform: rotate(-4.3deg);
-    margin-top: -9.9rem;
+    margin-top: -7rem;
     margin-bottom: calc(0.8 * var(--big-gap));
 }
 
@@ -286,7 +298,6 @@ h3{
     font-size: calc(3 * var(--comfort-font-size));
     line-height: 3.5rem;
     padding: 1.6rem;
-    padding-bottom: 5.5rem;
     margin-top: calc(0.5 * var(--small-gap));
     margin-bottom: calc(1.5 * var(--big-gap));
 }
