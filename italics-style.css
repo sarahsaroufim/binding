@@ -260,7 +260,6 @@ h3{
 .small-example{
     font-size: calc(1.5 * var(--comfort-font-size));
     line-height: 2.2rem;
-    border-color: black;
 }
 
 .small-example,
@@ -335,6 +334,60 @@ h3{
     font-size: calc(5.5 * var(--comfort-font-size));
     font-weight: 400;
 }
+
+#mandarin-text{
+    font-size: calc(1.5 * var(--comfort-font-size));
+    font-style: italic;
+    margin-top: var(--medium-gap);
+    margin-bottom: calc(2 * var(--medium-gap));
+}
+
+#adobe-arabic{
+    font-family: "adobe-arabic";
+}
+
+.arabic-example{
+    margin-top: 2.5rem;
+    font-size: calc(2 * var(--comfort-font-size));
+    line-height: 3.5rem;
+    text-align: center;
+    margin-bottom: calc(0.5 * var(--medium-gap));
+    margin-top: calc(1.5 * var(--medium-gap));
+}
+
+#lyon-arabic{
+    margin-bottom: var(--medium-gap);
+}
+
+#italic{
+    font-style: italic;
+}
+
+#bold{
+    font-weight: 700;
+    font-size: calc(1.75 * var(--comfort-font-size));
+}
+
+#italic-bold{
+    font-weight: 700;
+    font-style: italic;
+    font-size: calc(1.75 * var(--comfort-font-size));
+}
+
+.my-voice{
+    font-family: var(--font-lyon-slanted);
+    color: var(--color-acid);
+}
+
+#true-italic-arabic{
+    margin-bottom: var(--big-gap);
+}
+
+#true-italic-arabic::first-letter{
+    margin-left: -0.45rem;
+}
+
+
 
 @media screen and (min-width: 452px) {
 
