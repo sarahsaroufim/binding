@@ -6,7 +6,7 @@
     padding-right: calc(-0.5 * var(--side-margin));
 }
 
-letter-container-title{
+letter-container{
     position: relative;
 }
 
@@ -144,7 +144,6 @@ h2{
 
 .example{
     font-size: calc(2 * var(--medium-gap));
-    line-height: calc(2 * var(--small-gap));
     margin-bottom: var(--medium-gap);
     line-height: calc(2.5 * var(--medium-gap));
     text-align: center;
@@ -176,10 +175,6 @@ h2{
     font-family: 'Libre Bodoni';
     font-size: calc(1.8 * var(--medium-gap));
     margin-top: var(--big-gap);
-}
-
-.example-container{
-    position: relative;
 }
 
 h3{
@@ -320,6 +315,21 @@ h4{
 .subtitle-top-margin{
     margin-top: var(--big-gap);
 }
+
+.example{
+    margin-bottom: calc(1.5 * var(--medium-gap));
+    margin-top: calc(3 * var(--medium-gap));
+    line-height: calc(3.5 * var(--medium-gap));
+}
+
+#example-1{
+    font-size: calc(2.5 * var(--medium-gap));
+}
+
+#example-2{
+    font-size: calc(2.5 * var(--medium-gap));
+    margin-top: calc(1.5 * var(--big-gap));
+}
 }
 
 @media screen and (min-width: 684px) {
@@ -375,6 +385,17 @@ h1{
 
 #contents-title{
     margin-top: calc(3 * var(--medium-gap));
+}
+
+.example{
+    margin-bottom: calc(1.5 * var(--medium-gap));
+    margin-top: calc(4 * var(--medium-gap));
+    line-height: calc(4.7 * var(--medium-gap));
+}
+
+#example-1,
+#example-2{
+    font-size: calc(3.5 * var(--medium-gap));
 }
 }
 
