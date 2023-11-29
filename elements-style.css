@@ -208,6 +208,11 @@ h2{
     bottom: 1rem;
 }
 
+#example-circle-7,
+#example-circle-8{
+    left: 17.45rem;
+}
+
 h3{
     font-size: var(--comfort-font-size);
     font-weight: 600;
