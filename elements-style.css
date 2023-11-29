@@ -16,6 +16,7 @@ letter-container{
     font-size: calc(2.5 * var(--comfort-font-size));
     color: var(--color-acid);
     mix-blend-mode: multiply;
+    font-style: normal;
 }
 
 #title-equal-sign {
@@ -177,6 +178,36 @@ h2{
     margin-top: var(--big-gap);
 }
 
+#example-circle-1{
+    left: 1.9rem;
+    bottom: 1.1rem;
+}
+
+#example-circle-2{
+    left: 4.35rem;
+    top: 1.55rem;
+}
+
+#example-circle-3{
+    left: 7.5rem;
+    bottom: 1rem;
+}
+
+#example-circle-4{
+    left: -0.2rem;
+    bottom: -0.5rem;
+}
+
+#example-circle-5{
+    left: 2.55rem;
+    bottom: 1rem;
+}
+
+#example-circle-6{
+    left: 8rem;
+    bottom: 1rem;
+}
+
 h3{
     font-size: var(--comfort-font-size);
     font-weight: 600;
@@ -330,6 +361,36 @@ h4{
     font-size: calc(2.5 * var(--medium-gap));
     margin-top: calc(1.5 * var(--big-gap));
 }
+
+#example-circle-1{
+    left: 2.87rem;
+    bottom: 1.7rem;
+}
+
+#example-circle-2{
+    left: 6.5rem;
+    top: 2.4rem;
+}
+
+#example-circle-3{
+    left: 11rem;
+    bottom: 1.6rem;
+}
+
+#example-circle-4{
+    left: -0.1rem;
+    bottom: -0.4rem;
+}
+
+#example-circle-5{
+    left: 3.85rem;
+    bottom: 1.8rem;
+}
+
+#example-circle-6{
+    left: 12rem;
+    bottom: 1.7rem;
+}
 }
 
 @media screen and (min-width: 684px) {
@@ -396,6 +457,36 @@ h1{
 #example-1,
 #example-2{
     font-size: calc(3.5 * var(--medium-gap));
+}
+
+#example-circle-1{
+    left: 3.98rem;
+    bottom: 2.7rem;
+}
+
+#example-circle-2{
+    left: 9.05rem;
+    top: 3.6rem;
+}
+
+#example-circle-3{
+    left: 15.5rem;
+    bottom: 2.65rem;
+}
+
+#example-circle-4{
+    left: -0.2rem;
+    bottom: -0.25rem;
+}
+
+#example-circle-5{
+    left: 5.35rem;
+    bottom: 2.8rem;
+}
+
+#example-circle-6{
+    left: 16.6rem;
+    bottom: 2.6rem;
 }
 }
 
