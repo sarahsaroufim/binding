@@ -107,31 +107,6 @@ h1{
     text-decoration: none;
 }
 
-#appendix{
-    background-color: var(--color-acid);
-    padding-bottom: calc(1.5 * var(--side-margin));
-    line-height: calc(0.7 * var(--medium-gap));
-}
-
-.appendix-word{
-    font-weight: 700;
-    font-size: calc(0.9 * var(--root-unit));
-    padding-left: var(--side-margin);
-    text-decoration: underline;
-    text-decoration-thickness: calc(0.3 * var(--small-gap));
-    text-underline-offset: calc(0.5 * var(--small-gap));
-}
-
-.appendix-word:hover {
-    text-decoration: none;
-}
-
-.small-chapters{
-    font-family: var(--font-lyon-slanted);
-    font-size: var(--comfort-font-size);
-    margin-left: var(--small-gap);
-}
-
 h2{
     font-family: var(--font-lyon-slanted);
     font-weight: 900;
