@@ -1,5 +1,10 @@
 /* ........................"THE ELEMENTS OF TYPOGRAPHIC STYLE" CSS........................ */
 
+.intro-text,
+.main-text{
+    padding-left: calc(-0.5 * var(--side-margin));
+    padding-right: calc(-0.5 * var(--side-margin));
+}
 
 letter-container-title{
     position: relative;
@@ -41,9 +46,10 @@ letter-container-title{
 h1{
     font-size: calc(1.8 * var(--comfort-font-size));
     font-weight: 700;
-    margin-left: var(--side-margin);
     text-indent: calc(0.9 * var(--medium-gap));
     word-spacing: var(--small-gap);
+    margin-top: calc(0.6 * var(--big-gap));
+    margin-left: var(--side-margin);
 }
 
 #the{
@@ -64,11 +70,9 @@ h1{
 }
 
 #author-name{
-    font-family: var(--font-ocrb);
-    font-size: var(--root-font-size);
     margin-top: calc(2 * var(--small-gap));
     margin-left: var(--side-margin);
-    margin-bottom: var(--big-gap);
+    margin-bottom: calc(1.5 * var(--big-gap));
 }
 
 #contents-title{
@@ -213,4 +217,112 @@ h4{
     margin-right: auto;
     max-width: calc(1.5 * var(--big-gap));
     margin-bottom: var(--medium-gap);
+}
+
+@media screen and (min-width: 481px) {
+
+.annotations,
+#title-equal-sign{
+    font-size: calc(3.5 * var(--comfort-font-size));
+}
+
+
+#title-equal-sign {
+    left: -6rem;
+    bottom: -0.7rem;
+}
+
+#title-circle-1 {
+    left: -4.1rem;
+    bottom: 0.5rem;
+}
+
+
+#title-circle-2 {
+    left: 13rem;
+}
+
+#title-circle-3 {
+    left: 10.15rem;
+    bottom: 0.5rem;
+}
+
+#title-circle-4 {
+    left: 7.1rem;
+    bottom: -0.4rem;
+}
+
+h1{
+    font-size: calc(2.45 * var(--comfort-font-size));
+    text-indent: calc(1.15 * var(--medium-gap));
+    margin-top: var(--big-gap);
+}
+
+#of{
+    font-size: calc(2.1 * var(--comfort-font-size));
+}
+
+#typographic{
+    text-decoration-thickness: calc(1.3 * var(--small-gap));
+    text-underline-offset: calc(1.2 * var(--small-gap));
+}
+
+#author-name{
+    font-size: var(--comfort-font-size);
+    margin-top: calc(3 * var(--small-gap));
+    margin-bottom: calc(2.5 * var(--big-gap));
+}
+}
+
+@media screen and (min-width: 684px) {
+
+.annotations,
+#title-equal-sign{
+    font-size: calc(5 * var(--comfort-font-size));
+}
+
+
+#title-equal-sign {
+    left: -8.8rem;
+    bottom: -1.05rem;
+}
+
+#title-circle-1 {
+    left: -6rem;
+    bottom: 0.6rem;
+}
+
+
+#title-circle-2 {
+    left: 18.5rem;
+}
+
+#title-circle-3 {
+    left: 14.35rem;
+    bottom: 0.7rem;
+}
+
+#title-circle-4 {
+    left: 9.8rem;
+    bottom: -0.6rem;
+}
+
+h1{
+    font-size: calc(3.5 * var(--comfort-font-size));
+    text-indent: calc(1.7 * var(--medium-gap));
+}
+
+#of{
+    font-size: calc(3.05 * var(--comfort-font-size));
+}
+
+#typographic{
+    text-decoration-thickness: calc(1.6 * var(--small-gap));
+    text-underline-offset: calc(1.3 * var(--small-gap));
+}
+
+#author-name{
+    font-size: calc(1.3 * var(--comfort-font-size));
+}
+
 }
